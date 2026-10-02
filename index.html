@@ -4,75 +4,154 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
-  <title>인증맛집 지도 MVP</title>
+  <title>인증맛집 지도</title>
   <style>
+    :root{
+      --bg:#f6f7f9;
+      --surface:#ffffff;
+      --surface-2:#f7f8fa;
+      --text:#15171a;
+      --muted:#6f747b;
+      --line:#e8eaed;
+      --accent:#5b5ce2;
+      --accent-soft:#efefff;
+      --success:#03c75a;
+      --warning:#f59e0b;
+      --radius-sm:10px;
+      --radius-md:14px;
+      --radius-lg:20px;
+      --radius-xl:26px;
+      --shadow-sm:0 4px 14px rgba(18,24,40,.08);
+      --shadow-lg:0 18px 50px rgba(18,24,40,.18);
+      --nav-h:64px;
+    }
     *{box-sizing:border-box}
-    html,body{margin:0;min-height:100%;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;background:#f5f5f5;color:#171717}
-    button,input{font:inherit}
+    html,body{margin:0;min-height:100%;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans KR",sans-serif;background:var(--bg);color:var(--text)}
+    body{overscroll-behavior-y:none}
+    button,input,select{font:inherit}
     button{cursor:pointer}
-    .app{max-width:520px;margin:0 auto;min-height:100vh;background:#fff;position:relative}
-    .top{position:sticky;top:0;background:#fff;z-index:30;padding:14px 14px 10px;border-bottom:1px solid #eee}
-    .search{width:100%;padding:13px 15px;border:1px solid #ddd;border-radius:14px;font-size:15px;outline:none;background:#fff}
-    .search:focus{border-color:#222}
-    .filters{display:flex;gap:7px;margin-top:9px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
-    .filters::-webkit-scrollbar{display:none}
-    .chip{border:1px solid #ddd;background:#fff;border-radius:999px;padding:9px 12px;font-weight:700;white-space:nowrap}
-    .chip.active{background:#111;color:#fff;border-color:#111}
-    .mapWrap{height:56vh;min-height:390px;position:relative;background:#eef2f5}
+    .app{max-width:520px;margin:0 auto;min-height:100dvh;background:var(--surface);position:relative;overflow-x:hidden}
+    .top{position:sticky;top:0;z-index:40;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);padding:14px 14px 10px;border-bottom:1px solid var(--line)}
+    .brandRow{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+    .brand{font-size:20px;font-weight:900;letter-spacing:-.4px}
+    .brandSub{font-size:12px;color:var(--muted);font-weight:700}
+    .searchRow{display:flex;gap:8px}
+    .searchBox{position:relative;flex:1}
+    .searchIcon{position:absolute;left:13px;top:50%;transform:translateY(-50%);color:#8a8f96;font-size:15px;pointer-events:none}
+    .search{width:100%;height:46px;padding:0 14px 0 37px;border:1px solid var(--line);border-radius:15px;font-size:15px;outline:none;background:var(--surface-2);color:var(--text)}
+    .search:focus{border-color:#c7c8ff;background:#fff;box-shadow:0 0 0 3px var(--accent-soft)}
+    .filterBtn{height:46px;min-width:84px;border:1px solid var(--line);background:#fff;border-radius:15px;padding:0 13px;font-weight:850;display:flex;align-items:center;justify-content:center;gap:7px}
+    .filterBtn.active{border-color:#c8c9ff;background:var(--accent-soft);color:var(--accent)}
+    .badge{min-width:20px;height:20px;border-radius:999px;background:var(--accent);color:#fff;font-size:11px;display:none;align-items:center;justify-content:center;padding:0 6px}
+    .filterBtn.active .badge{display:flex}
+    .applied{display:none;gap:7px;margin-top:9px;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}
+    .applied::-webkit-scrollbar{display:none}
+    .applied.show{display:flex}
+    .appliedChip{border:0;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:7px 10px;font-size:12px;font-weight:800;white-space:nowrap}
+    .appliedChip span{margin-left:5px;opacity:.7}
+    .mapWrap{height:calc(100dvh - 148px);min-height:470px;position:relative;background:#eef1f5}
     #map{width:100%;height:100%}
-    .mapBtn{position:absolute;z-index:10;border:1px solid #ddd;background:#fff;border-radius:999px;font-weight:750;box-shadow:0 2px 10px #0002}
-    .research{top:12px;left:50%;transform:translateX(-50%);padding:10px 14px}
-    .loc{right:12px;bottom:14px;width:46px;height:46px;padding:0;font-size:20px}
+    .mapBtn{position:absolute;z-index:12;border:1px solid rgba(0,0,0,.08);background:#fff;border-radius:999px;font-weight:850;box-shadow:var(--shadow-sm);color:var(--text)}
+    .research{top:12px;left:50%;transform:translateX(-50%);padding:10px 14px;font-size:13px}
+    .loc{right:14px;bottom:18px;width:48px;height:48px;padding:0;font-size:20px;display:grid;place-items:center}
     .mapError{display:none;position:absolute;inset:0;z-index:20;background:#fff;align-items:center;justify-content:center;text-align:center;padding:30px;line-height:1.55}
-    .sheet{padding:18px 16px 92px;background:#fff}
-    .emptySheet{padding:24px 0;color:#777;text-align:center}
-    .title{font-size:23px;font-weight:850}
-    .meta{color:#666;margin:7px 0;font-size:14px}
-    .ratings{display:flex;gap:8px;margin:9px 0}
-    .rating{font-size:13px;padding:6px 9px;border-radius:8px;background:#f5f5f5}
-    .tags{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
-    .tag{font-size:12px;padding:5px 8px;border-radius:8px;background:#eef4ff;color:#2457a6;font-weight:650}
-    .desc{line-height:1.55;margin:13px 0}
-    .menu{border-top:1px solid #eee;margin-top:14px}
-    .row{display:flex;justify-content:space-between;gap:14px;padding:11px 0;border-bottom:1px solid #eee}
-    .row span:last-child{white-space:nowrap;color:#444}
-    .naver{width:100%;margin-top:16px;border:0;border-radius:12px;background:#03c75a;color:#fff;padding:14px;font-weight:800}
-    .note{font-size:12px;color:#8b5b00;background:#fff7df;padding:9px 10px;border-radius:8px;margin-top:12px;line-height:1.45}
-    .list{display:none;padding:14px 14px 92px}
-    .listHead{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
-    .listHead h2{margin:0}
-    .count{color:#777;font-size:14px}
-    .card{padding:15px 3px;border-bottom:1px solid #eee}
-    .card h3{margin:0 0 5px;font-size:18px}
-    .card small{color:#555;line-height:1.5}
-    .candidateTitle{margin:28px 0 6px}
-    .bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:520px;width:100%;display:flex;background:#fff;border-top:1px solid #ddd;padding-bottom:env(safe-area-inset-bottom);z-index:40}
-    .bottom button{width:50%;border:0;border-radius:0;padding:16px;background:#fff;font-weight:800}
-    .bottom button.active{color:#111;background:#f2f2f2}
-    .marker{display:flex;align-items:center;justify-content:center;min-width:34px;height:34px;padding:0 9px;border-radius:17px;background:#171717;color:#fff;border:2px solid #fff;box-shadow:0 2px 8px #0004;font-size:12px;font-weight:850;white-space:nowrap}
-    .marker.multi{background:#f59e0b}
+    .list{display:none;padding:16px 14px calc(var(--nav-h) + 26px)}
+    .listHead{display:flex;align-items:end;justify-content:space-between;margin-bottom:8px}
+    .listHead h2{margin:0;font-size:22px}
+    .count{color:var(--muted);font-size:13px;font-weight:700}
+    .card{padding:16px 2px;border-bottom:1px solid var(--line)}
+    .card h3{margin:0 0 6px;font-size:18px;letter-spacing:-.2px}
+    .cardMeta{font-size:13px;color:var(--muted);margin-bottom:9px}
+    .card small{color:#4e5359;line-height:1.55}
+    .tags{display:flex;gap:6px;flex-wrap:wrap}
+    .tag{font-size:12px;padding:5px 8px;border-radius:8px;background:var(--accent-soft);color:var(--accent);font-weight:800}
+    .candidateTitle{margin:30px 0 8px;font-size:18px}
+    .candidateCard{padding:14px;border:1px solid var(--line);border-radius:16px;margin-top:10px;background:#fff}
+    .candidateCard h3{margin:0 0 5px}
+    .candidateNote{font-size:12px;color:var(--muted);margin-top:9px;line-height:1.45}
+
+    .bottom{position:fixed;bottom:0;left:50%;transform:translateX(-50%);max-width:520px;width:100%;display:flex;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom);z-index:60;min-height:var(--nav-h)}
+    .bottom button{width:50%;border:0;background:#fff;padding:11px 0 9px;color:#8a8f96;font-weight:850;display:flex;flex-direction:column;align-items:center;gap:3px}
+    .bottom button.active{color:var(--accent)}
+    .navIcon{font-size:18px;line-height:1}
+    .navLabel{font-size:11px}
+
+    .detailSheet{position:fixed;left:50%;transform:translate(-50%,110%);bottom:calc(var(--nav-h) + env(safe-area-inset-bottom));width:min(520px,100%);z-index:55;background:#fff;border-radius:var(--radius-xl) var(--radius-xl) 0 0;box-shadow:var(--shadow-lg);transition:transform .28s ease,max-height .28s ease;max-height:300px;overflow:hidden;border:1px solid var(--line);border-bottom:0}
+    .detailSheet.open{transform:translate(-50%,0)}
+    .detailSheet.expanded{max-height:76dvh}
+    .sheetGrab{width:40px;height:4px;border-radius:999px;background:#d8dade;margin:9px auto 4px}
+    .detailHead{padding:8px 16px 13px;position:relative}
+    .detailClose{position:absolute;right:12px;top:5px;width:34px;height:34px;border:0;border-radius:50%;background:var(--surface-2);font-size:18px;color:#5c6168}
+    .detailTitle{font-size:22px;font-weight:900;padding-right:40px;letter-spacing:-.35px}
+    .detailMeta{font-size:13px;color:var(--muted);margin-top:5px}
+    .ratings{display:flex;gap:7px;margin-top:10px;flex-wrap:wrap}
+    .rating{font-size:12px;padding:6px 8px;border-radius:9px;background:var(--surface-2);font-weight:750}
+    .detailTags{margin-top:10px}
+    .detailBody{border-top:1px solid var(--line);padding:0 16px 16px;max-height:122px;overflow:hidden;transition:max-height .28s ease}
+    .detailSheet.expanded .detailBody{max-height:56dvh;overflow:auto}
+    .desc{line-height:1.55;margin:14px 0;color:#3f444a}
+    .menu{border-top:1px solid var(--line)}
+    .row{display:flex;justify-content:space-between;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+    .row span:last-child{white-space:nowrap;color:#4a4f55}
+    .verify{font-size:12px;color:var(--muted);background:var(--surface-2);padding:9px 10px;border-radius:10px;margin-top:12px;line-height:1.45}
+    .naver{width:100%;margin-top:12px;border:0;border-radius:13px;background:var(--success);color:#fff;padding:14px;font-weight:900}
+    .expandBtn{width:100%;border:0;border-top:1px solid var(--line);background:#fff;padding:11px 14px;font-size:12px;font-weight:850;color:var(--accent)}
+
+    .modalBack{position:fixed;inset:0;background:rgba(17,20,24,.36);z-index:80;opacity:0;pointer-events:none;transition:opacity .2s ease}
+    .modalBack.show{opacity:1;pointer-events:auto}
+    .filterSheet{position:fixed;left:50%;bottom:0;transform:translate(-50%,110%);width:min(520px,100%);max-height:86dvh;background:#fff;z-index:90;border-radius:26px 26px 0 0;box-shadow:var(--shadow-lg);transition:transform .25s ease;display:flex;flex-direction:column}
+    .filterSheet.show{transform:translate(-50%,0)}
+    .filterHeader{padding:9px 16px 12px;border-bottom:1px solid var(--line)}
+    .filterGrab{width:40px;height:4px;border-radius:999px;background:#d8dade;margin:0 auto 10px}
+    .filterTitleRow{display:flex;align-items:center;justify-content:space-between}
+    .filterTitle{font-size:21px;font-weight:900}
+    .resetBtn{border:0;background:transparent;color:var(--muted);font-weight:800;padding:7px}
+    .filterBody{overflow:auto;padding:8px 16px 18px}
+    .filterSection{padding:15px 0;border-bottom:1px solid var(--line)}
+    .filterSection:last-child{border-bottom:0}
+    .sectionTitle{font-size:14px;font-weight:900;margin-bottom:10px}
+    .sectionSub{font-size:11px;color:var(--muted);margin-top:-5px;margin-bottom:10px}
+    .optionWrap{display:flex;flex-wrap:wrap;gap:8px}
+    .option{border:1px solid var(--line);background:#fff;border-radius:999px;padding:9px 12px;font-size:13px;font-weight:800;color:#4b5057}
+    .option.selected{border-color:#c8c9ff;background:var(--accent-soft);color:var(--accent)}
+    .toggleRow{display:flex;align-items:center;justify-content:space-between;padding:2px 0}
+    .toggleCopy b{display:block;font-size:14px}
+    .toggleCopy span{font-size:11px;color:var(--muted)}
+    .switch{width:48px;height:29px;border-radius:999px;background:#ddd;position:relative;border:0;padding:0;transition:.2s}
+    .switch:after{content:"";position:absolute;top:3px;left:3px;width:23px;height:23px;border-radius:50%;background:#fff;box-shadow:0 1px 4px #0002;transition:.2s}
+    .switch.on{background:var(--accent)}
+    .switch.on:after{left:22px}
+    .filterFooter{padding:12px 16px calc(12px + env(safe-area-inset-bottom));border-top:1px solid var(--line);background:#fff}
+    .applyBtn{width:100%;border:0;border-radius:14px;background:var(--accent);color:#fff;padding:15px;font-weight:900}
+    .applyBtn span{opacity:.8;font-weight:750}
+    .marker{display:flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:18px;background:#202328;color:#fff;border:3px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.28);font-size:11px;font-weight:900}
+    .marker.multi{background:var(--warning)}
+    .marker.selected{outline:3px solid rgba(91,92,226,.25);transform:scale(1.15)}
     .meMarker{width:20px;height:20px;border-radius:50%;background:#2f80ed;border:4px solid #fff;box-shadow:0 1px 7px #0005}
-    @media (min-width:521px){body{padding:20px 0}.app{min-height:calc(100vh - 40px);box-shadow:0 0 30px #0001}.bottom{bottom:20px}}
+    @media (min-width:521px){
+      body{padding:18px 0}
+      .app{min-height:calc(100dvh - 36px);box-shadow:0 0 36px rgba(0,0,0,.08);border-radius:24px;overflow:hidden}
+      .bottom{bottom:18px}
+      .detailSheet{bottom:calc(var(--nav-h) + 18px)}
+    }
   </style>
 </head>
 <body>
 <div class="app">
-  <div class="top">
-    <input id="q" class="search" placeholder="맛집이나 메뉴를 검색해보세요">
-    <div class="filters">
-      <button class="chip active" data-cat="all">전체</button>
-      <button class="chip" data-cat="한식">한식</button>
-      <button class="chip" data-cat="고기">고기</button>
-      <button class="chip" data-cat="일식">일식</button>
-      <button class="chip" data-cat="중식">중식</button>
-      <button class="chip" data-cat="양식">양식</button>
-      <button class="chip" data-cat="면">면</button>
-      <button class="chip" data-cat="해산물">해산물</button>
-      <button class="chip" data-cat="분식">분식</button>
-      <button class="chip" data-cat="카페·디저트">카페·디저트</button>
-      <button id="multi" class="chip">복수 인증</button>
+  <header class="top">
+    <div class="brandRow">
+      <div class="brand">인증맛집</div>
+      <div class="brandSub">검증된 곳만 지도에서</div>
     </div>
-  </div>
+    <div class="searchRow">
+      <div class="searchBox">
+        <span class="searchIcon">⌕</span>
+        <input id="q" class="search" placeholder="맛집이나 대표 메뉴 검색">
+      </div>
+      <button id="filterBtn" class="filterBtn">필터 <span id="filterBadge" class="badge">0</span></button>
+    </div>
+    <div id="applied" class="applied"></div>
+  </header>
 
   <section id="mapView">
     <div class="mapWrap">
@@ -83,20 +162,63 @@
         <div><b>네이버 지도를 불러오지 못했습니다.</b><br>잠시 후 새로고침하거나 NAVER Cloud의 Web Service URL / Dynamic Map 설정을 확인해 주세요.</div>
       </div>
     </div>
-    <div id="sheet" class="sheet"><div class="emptySheet">맛집 정보를 불러오는 중...</div></div>
   </section>
 
   <section id="listView" class="list">
-    <div class="listHead"><h2>맛집 목록</h2><div id="count" class="count"></div></div>
+    <div class="listHead">
+      <h2>맛집 목록</h2>
+      <div id="count" class="count"></div>
+    </div>
     <div id="cards"></div>
     <h3 class="candidateTitle">우선 수집 후보</h3>
     <div id="candidateCards"></div>
   </section>
 
   <nav class="bottom">
-    <button id="mapTab" class="active">지도</button>
-    <button id="listTab">목록</button>
+    <button id="mapTab" class="active"><span class="navIcon">⌖</span><span class="navLabel">지도</span></button>
+    <button id="listTab"><span class="navIcon">☷</span><span class="navLabel">목록</span></button>
   </nav>
+</div>
+
+<div id="detailSheet" class="detailSheet" aria-hidden="true">
+  <div class="sheetGrab"></div>
+  <div id="detailHead" class="detailHead"></div>
+  <div id="detailBody" class="detailBody"></div>
+  <button id="expandBtn" class="expandBtn">상세보기</button>
+</div>
+
+<div id="modalBack" class="modalBack"></div>
+<div id="filterSheet" class="filterSheet" aria-hidden="true">
+  <div class="filterHeader">
+    <div class="filterGrab"></div>
+    <div class="filterTitleRow">
+      <div class="filterTitle">필터</div>
+      <button id="resetBtn" class="resetBtn">초기화</button>
+    </div>
+  </div>
+  <div class="filterBody">
+    <section class="filterSection">
+      <div class="sectionTitle">음식 카테고리</div>
+      <div id="categoryOptions" class="optionWrap"></div>
+    </section>
+    <section class="filterSection">
+      <div class="sectionTitle">인증 콘텐츠</div>
+      <div class="sectionSub">여러 개를 선택하면 모두 해당하는 맛집만 보여줘요.</div>
+      <div id="sourceOptions" class="optionWrap"></div>
+    </section>
+    <section class="filterSection">
+      <div class="toggleRow">
+        <div class="toggleCopy">
+          <b>복수 인증 맛집만</b>
+          <span>2개 이상의 인증 출처가 있는 맛집</span>
+        </div>
+        <button id="multiSwitch" class="switch" aria-label="복수 인증 맛집만"></button>
+      </div>
+    </section>
+  </div>
+  <div class="filterFooter">
+    <button id="applyBtn" class="applyBtn">맛집 보기 <span id="previewCount"></span></button>
+  </div>
 </div>
 
 <script src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=0piujoi9ef"></script>
@@ -104,12 +226,17 @@
 (function(){
   var R = [];
   var CANDIDATES = [];
-  var cat = "all";
-  var multiOnly = false;
-  var boundsOnly = false;
   var map = null;
   var markers = [];
   var meMarker = null;
+  var selectedId = null;
+  var boundsOnly = false;
+
+  var CATEGORIES = ["전체","한식","고기","일식","중식","양식","면","해산물","분식","카페·디저트","기타"];
+  var SOURCES = ["먹을텐데","또간집","최자로드","백종원","수요미식회","전현무계획","맛있는 녀석들","기타 유명맛집","흑백요리사"];
+
+  var applied = {cat:"all", sources:[], multi:false};
+  var draft = {cat:"all", sources:[], multi:false};
 
   function esc(v){
     return String(v == null ? "" : v)
@@ -117,29 +244,31 @@
       .replace(/"/g,"&quot;").replace(/'/g,"&#039;");
   }
 
+  function cloneState(s){
+    return {cat:s.cat, sources:s.sources.slice(), multi:s.multi};
+  }
+
   function query(){
     return document.getElementById("q").value.trim().toLowerCase();
   }
 
-  function baseFiltered(){
+  function matchesState(r, state, includeBounds){
     var term = query();
-    return R.filter(function(r){
-      var catOk = cat === "all" || (r.cats || []).indexOf(cat) >= 0;
-      var multiOk = !multiOnly || (r.sources || []).length >= 2;
-      var textOk = !term ||
-        String(r.name || "").toLowerCase().indexOf(term) >= 0 ||
-        (r.menu || []).some(function(m){ return String(m[0] || "").toLowerCase().indexOf(term) >= 0; });
-      return catOk && multiOk && textOk;
-    });
+    var catOk = state.cat === "all" || (r.cats || []).indexOf(state.cat) >= 0;
+    var multiOk = !state.multi || (r.sources || []).length >= 2;
+    var sourceOk = (state.sources || []).every(function(s){ return (r.sources || []).indexOf(s) >= 0; });
+    var textOk = !term ||
+      String(r.name || "").toLowerCase().indexOf(term) >= 0 ||
+      (r.menu || []).some(function(m){ return String(m[0] || "").toLowerCase().indexOf(term) >= 0; });
+    var boundsOk = true;
+    if(includeBounds && boundsOnly && map && window.naver && naver.maps){
+      boundsOk = map.getBounds().hasLatLng(new naver.maps.LatLng(r.lat, r.lng));
+    }
+    return catOk && multiOk && sourceOk && textOk && boundsOk;
   }
 
-  function filteredForMap(){
-    var rows = baseFiltered();
-    if(!boundsOnly || !map) return rows;
-    var b = map.getBounds();
-    return rows.filter(function(r){
-      return b.hasLatLng(new naver.maps.LatLng(r.lat, r.lng));
-    });
+  function filtered(includeBounds){
+    return R.filter(function(r){ return matchesState(r, applied, includeBounds); });
   }
 
   function clearMarkers(){
@@ -149,55 +278,83 @@
 
   function markerHtml(r){
     var isMulti = (r.sources || []).length >= 2;
-    return '<div class="marker' + (isMulti ? ' multi' : '') + '">' + (isMulti ? '★ ' : '') + esc(r.name) + '</div>';
+    var isSelected = selectedId === r.id;
+    return '<div class="marker' + (isMulti ? ' multi' : '') + (isSelected ? ' selected' : '') + '">' + (isMulti ? '★' : '맛') + '</div>';
   }
 
   function drawMarkers(){
     if(!map || !window.naver || !naver.maps) return;
     clearMarkers();
-    var rows = filteredForMap();
-    rows.forEach(function(r){
+    filtered(true).forEach(function(r){
       var marker = new naver.maps.Marker({
-        position: new naver.maps.LatLng(r.lat, r.lng),
-        map: map,
-        title: r.name,
-        icon: {
-          content: markerHtml(r),
-          anchor: new naver.maps.Point(18, 34)
-        }
+        position:new naver.maps.LatLng(r.lat,r.lng),
+        map:map,
+        title:r.name,
+        icon:{content:markerHtml(r),anchor:new naver.maps.Point(18,18)}
       });
-      naver.maps.Event.addListener(marker, "click", function(){
-        drawSheet(r);
-        map.panTo(marker.getPosition());
+      naver.maps.Event.addListener(marker,"click",function(){
+        selectRestaurant(r,true);
       });
       markers.push(marker);
     });
   }
 
-  function drawSheet(r){
-    var el = document.getElementById("sheet");
-    if(!r){
-      el.innerHTML = '<div class="emptySheet">조건에 맞는 맛집이 없습니다.</div>';
-      return;
+  function selectRestaurant(r, pan){
+    if(!r) return;
+    selectedId = r.id;
+    renderDetail(r);
+    drawMarkers();
+    if(pan && map){
+      map.panTo(new naver.maps.LatLng(r.lat,r.lng));
     }
-    var menus = (r.menu || []).map(function(m){
-      return '<div class="row"><b>' + esc(m[0]) + '</b><span>' + esc(m[1]) + '</span></div>';
-    }).join("");
+  }
+
+  function closeDetail(){
+    selectedId = null;
+    document.getElementById("detailSheet").classList.remove("open","expanded");
+    document.getElementById("detailSheet").setAttribute("aria-hidden","true");
+    document.getElementById("expandBtn").textContent = "상세보기";
+    drawMarkers();
+  }
+
+  function renderDetail(r){
     var tags = (r.sources || []).map(function(s){
       return '<span class="tag">' + esc(s) + '</span>';
     }).join("");
-    el.innerHTML =
-      '<div class="title">' + esc(r.name) + '</div>' +
-      '<div class="meta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + '</div>' +
+    document.getElementById("detailHead").innerHTML =
+      '<button id="detailClose" class="detailClose" aria-label="닫기">×</button>' +
+      '<div class="detailTitle">' + esc(r.name) + '</div>' +
+      '<div class="detailMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + '</div>' +
       '<div class="ratings"><span class="rating">네이버 ⭐ ' + esc(r.naver) + '</span><span class="rating">카카오 ⭐ ' + esc(r.kakao) + '</span></div>' +
-      '<div class="tags">' + tags + '</div>' +
-      '<p class="desc">' + esc(r.desc) + '</p>' +
+      '<div class="tags detailTags">' + tags + '</div>';
+
+    var menus = (r.menu || []).map(function(m){
+      return '<div class="row"><b>' + esc(m[0]) + '</b><span>' + esc(m[1]) + '</span></div>';
+    }).join("");
+
+    document.getElementById("detailBody").innerHTML =
+      '<p class="desc">' + esc(r.desc || "") + '</p>' +
       '<div class="menu">' + menus + '</div>' +
-      '<div class="note">프로토타입 데이터입니다. 네이버·카카오 평점과 인증 출처는 본 데이터 수집 단계에서 개별 검증 후 확정합니다.</div>' +
+      '<div class="verify">' + esc(r.status || "검증 정보 확인 중") + ' · 평점과 인증 출처는 본 데이터 수집 단계에서 개별 검증 후 확정합니다.</div>' +
       '<button id="naverOpen" class="naver">네이버지도에서 보기</button>';
+
+    document.getElementById("detailClose").onclick = closeDetail;
     document.getElementById("naverOpen").onclick = function(){
       window.open("https://map.naver.com/p/search/" + encodeURIComponent(r.name), "_blank");
     };
+
+    var sheet = document.getElementById("detailSheet");
+    sheet.classList.add("open");
+    sheet.classList.remove("expanded");
+    sheet.setAttribute("aria-hidden","false");
+    document.getElementById("expandBtn").textContent = "상세보기";
+  }
+
+  function toggleDetail(){
+    var sheet = document.getElementById("detailSheet");
+    if(!sheet.classList.contains("open")) return;
+    sheet.classList.toggle("expanded");
+    document.getElementById("expandBtn").textContent = sheet.classList.contains("expanded") ? "접기" : "상세보기";
   }
 
   function drawCandidates(){
@@ -209,79 +366,179 @@
     });
     document.getElementById("candidateCards").innerHTML = rows.map(function(x){
       var tags = (x.sources || []).map(function(s){ return '<span class="tag">' + esc(s) + '</span>'; }).join("");
-      return '<div class="card"><h3>' + esc(x.name) + '</h3>' +
-        '<div class="meta">' + esc(x.district) + ' · ' + esc((x.cats || []).join(" · ")) + '</div>' +
+      return '<div class="candidateCard"><h3>' + esc(x.name) + '</h3>' +
+        '<div class="cardMeta">' + esc(x.district) + ' · ' + esc((x.cats || []).join(" · ")) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
-        '<small>' + esc((x.menus || []).join(" · ")) + '</small>' +
-        '<div class="note">' + esc(x.note) + ' · 네이버/카카오 4.0+ 개별 검증 전 후보</div></div>';
+        '<div style="margin-top:9px"><small>' + esc((x.menus || []).join(" · ")) + '</small></div>' +
+        '<div class="candidateNote">' + esc(x.note) + ' · 네이버/카카오 4.0+ 개별 검증 전 후보</div></div>';
     }).join("");
   }
 
   function renderList(){
-    var rows = baseFiltered();
+    var rows = filtered(false);
     document.getElementById("count").textContent = "검색 결과 " + rows.length + "개";
     document.getElementById("cards").innerHTML = rows.map(function(r){
       var tags = (r.sources || []).map(function(s){ return '<span class="tag">' + esc(s) + '</span>'; }).join("");
-      var idx = R.indexOf(r);
-      return '<div class="card" data-idx="' + idx + '"><h3>' + esc(r.name) + '</h3>' +
-        '<div class="meta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + esc(r.naver) + ' / 카카오 ' + esc(r.kakao) + '</div>' +
+      return '<div class="card" data-id="' + esc(r.id) + '"><h3>' + esc(r.name) + '</h3>' +
+        '<div class="cardMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + esc(r.naver) + ' / 카카오 ' + esc(r.kakao) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
-        '<small>' + esc((r.menu || []).map(function(m){ return m[0]; }).join(" · ")) + '</small></div>';
+        '<div style="margin-top:9px"><small>' + esc((r.menu || []).map(function(m){ return m[0]; }).join(" · ")) + '</small></div></div>';
     }).join("");
-    Array.prototype.forEach.call(document.querySelectorAll(".card[data-idx]"), function(card){
+
+    Array.prototype.forEach.call(document.querySelectorAll(".card[data-id]"),function(card){
       card.onclick = function(){
-        var r = R[Number(card.getAttribute("data-idx"))];
+        var id = Number(card.getAttribute("data-id"));
+        var r = R.find(function(x){ return x.id === id; });
+        if(!r) return;
         showTab("map");
-        drawSheet(r);
+        selectRestaurant(r,false);
         if(map){
-          map.panTo(new naver.maps.LatLng(r.lat, r.lng));
           map.setZoom(15);
+          map.panTo(new naver.maps.LatLng(r.lat,r.lng));
         }
       };
     });
   }
 
-  function render(){
+  function activeCount(){
+    return (applied.cat !== "all" ? 1 : 0) + applied.sources.length + (applied.multi ? 1 : 0);
+  }
+
+  function renderApplied(){
+    var wrap = document.getElementById("applied");
+    var chips = [];
+    if(applied.cat !== "all") chips.push({type:"cat",label:applied.cat});
+    applied.sources.forEach(function(s){ chips.push({type:"source",label:s}); });
+    if(applied.multi) chips.push({type:"multi",label:"복수 인증"});
+    wrap.classList.toggle("show",chips.length > 0);
+    wrap.innerHTML = chips.map(function(c){
+      return '<button class="appliedChip" data-type="' + c.type + '" data-label="' + esc(c.label) + '">' + esc(c.label) + '<span>×</span></button>';
+    }).join("");
+
+    Array.prototype.forEach.call(wrap.querySelectorAll(".appliedChip"),function(btn){
+      btn.onclick = function(){
+        var type = btn.getAttribute("data-type");
+        var label = btn.getAttribute("data-label");
+        if(type === "cat") applied.cat = "all";
+        if(type === "source") applied.sources = applied.sources.filter(function(s){ return s !== label; });
+        if(type === "multi") applied.multi = false;
+        boundsOnly = false;
+        renderAll();
+      };
+    });
+
+    var count = activeCount();
+    document.getElementById("filterBadge").textContent = count;
+    document.getElementById("filterBtn").classList.toggle("active",count > 0);
+  }
+
+  function renderCategoryOptions(){
+    document.getElementById("categoryOptions").innerHTML = CATEGORIES.map(function(c){
+      var value = c === "전체" ? "all" : c;
+      return '<button class="option' + (draft.cat === value ? ' selected' : '') + '" data-cat="' + esc(value) + '">' + esc(c) + '</button>';
+    }).join("");
+    Array.prototype.forEach.call(document.querySelectorAll("#categoryOptions [data-cat]"),function(btn){
+      btn.onclick = function(){
+        draft.cat = btn.getAttribute("data-cat");
+        renderFilterSheet();
+      };
+    });
+  }
+
+  function renderSourceOptions(){
+    document.getElementById("sourceOptions").innerHTML = SOURCES.map(function(s){
+      return '<button class="option' + (draft.sources.indexOf(s) >= 0 ? ' selected' : '') + '" data-source="' + esc(s) + '">' + esc(s) + '</button>';
+    }).join("");
+    Array.prototype.forEach.call(document.querySelectorAll("#sourceOptions [data-source]"),function(btn){
+      btn.onclick = function(){
+        var s = btn.getAttribute("data-source");
+        if(draft.sources.indexOf(s) >= 0){
+          draft.sources = draft.sources.filter(function(x){ return x !== s; });
+        }else{
+          draft.sources.push(s);
+        }
+        renderFilterSheet();
+      };
+    });
+  }
+
+  function renderFilterSheet(){
+    renderCategoryOptions();
+    renderSourceOptions();
+    document.getElementById("multiSwitch").classList.toggle("on",draft.multi);
+    var preview = R.filter(function(r){ return matchesState(r,draft,false); }).length;
+    document.getElementById("previewCount").textContent = preview + "곳";
+  }
+
+  function openFilter(){
+    draft = cloneState(applied);
+    renderFilterSheet();
+    document.getElementById("modalBack").classList.add("show");
+    document.getElementById("filterSheet").classList.add("show");
+    document.getElementById("filterSheet").setAttribute("aria-hidden","false");
+  }
+
+  function closeFilter(){
+    document.getElementById("modalBack").classList.remove("show");
+    document.getElementById("filterSheet").classList.remove("show");
+    document.getElementById("filterSheet").setAttribute("aria-hidden","true");
+  }
+
+  function applyFilter(){
+    applied = cloneState(draft);
+    boundsOnly = false;
+    closeFilter();
+    closeDetail();
+    renderAll();
+  }
+
+  function resetDraft(){
+    draft = {cat:"all",sources:[],multi:false};
+    renderFilterSheet();
+  }
+
+  function renderAll(){
+    renderApplied();
     drawCandidates();
     renderList();
     drawMarkers();
-    var rows = filteredForMap();
-    drawSheet(rows[0] || null);
+    if(selectedId != null){
+      var stillVisible = filtered(true).some(function(r){ return r.id === selectedId; });
+      if(!stillVisible) closeDetail();
+    }
   }
 
   function showTab(which){
     var isMap = which === "map";
     document.getElementById("mapView").style.display = isMap ? "block" : "none";
     document.getElementById("listView").style.display = isMap ? "none" : "block";
-    document.getElementById("mapTab").classList.toggle("active", isMap);
-    document.getElementById("listTab").classList.toggle("active", !isMap);
+    document.getElementById("mapTab").classList.toggle("active",isMap);
+    document.getElementById("listTab").classList.toggle("active",!isMap);
+    if(!isMap) closeDetail();
     if(isMap && map){
-      setTimeout(function(){ naver.maps.Event.trigger(map, "resize"); }, 0);
+      setTimeout(function(){ naver.maps.Event.trigger(map,"resize"); },0);
     }
   }
 
   function locateMe(){
-    if(!navigator.geolocation){
+    if(!map || !navigator.geolocation){
       alert("이 브라우저에서는 현재 위치를 사용할 수 없습니다.");
       return;
     }
     navigator.geolocation.getCurrentPosition(function(pos){
-      var here = new naver.maps.LatLng(pos.coords.latitude, pos.coords.longitude);
+      var here = new naver.maps.LatLng(pos.coords.latitude,pos.coords.longitude);
       map.setCenter(here);
       map.setZoom(15);
       if(meMarker) meMarker.setMap(null);
       meMarker = new naver.maps.Marker({
-        position: here,
-        map: map,
-        zIndex: 100,
-        icon: {
-          content: '<div class="meMarker"></div>',
-          anchor: new naver.maps.Point(10,10)
-        }
+        position:here,
+        map:map,
+        zIndex:100,
+        icon:{content:'<div class="meMarker"></div>',anchor:new naver.maps.Point(10,10)}
       });
-    }, function(){
+    },function(){
       alert("현재 위치 권한을 허용하면 내 위치로 이동할 수 있습니다.");
-    }, {enableHighAccuracy:true, timeout:8000, maximumAge:30000});
+    },{enableHighAccuracy:true,timeout:8000,maximumAge:30000});
   }
 
   function initMap(){
@@ -289,11 +546,11 @@
       document.getElementById("mapError").style.display = "flex";
       return;
     }
-    map = new naver.maps.Map("map", {
-      center: new naver.maps.LatLng(37.5666103, 126.9783882),
-      zoom: 11,
-      minZoom: 7,
-      zoomControl: false
+    map = new naver.maps.Map("map",{
+      center:new naver.maps.LatLng(37.5666103,126.9783882),
+      zoom:11,
+      minZoom:7,
+      zoomControl:false
     });
   }
 
@@ -304,44 +561,39 @@
   initMap();
 
   Promise.all([
-    fetch("./data.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("data"); return r.json(); }),
-    fetch("./candidates_priority.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("candidate"); return r.json(); })
+    fetch("./data.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("data"); return r.json(); }),
+    fetch("./candidates_priority.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("candidate"); return r.json(); })
   ]).then(function(values){
     R = values[0];
     CANDIDATES = values[1];
-    render();
+    renderAll();
     locateMe();
   }).catch(function(){
-    document.getElementById("sheet").innerHTML = '<div class="emptySheet">맛집 데이터를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.</div>';
+    document.getElementById("cards").innerHTML = '<div class="candidateNote">맛집 데이터를 불러오지 못했습니다. 잠시 후 새로고침해 주세요.</div>';
   });
-
-  Array.prototype.forEach.call(document.querySelectorAll("[data-cat]"), function(btn){
-    btn.onclick = function(){
-      Array.prototype.forEach.call(document.querySelectorAll("[data-cat]"), function(b){ b.classList.remove("active"); });
-      btn.classList.add("active");
-      cat = btn.getAttribute("data-cat");
-      boundsOnly = false;
-      render();
-    };
-  });
-
-  document.getElementById("multi").onclick = function(){
-    multiOnly = !multiOnly;
-    this.classList.toggle("active", multiOnly);
-    boundsOnly = false;
-    render();
-  };
 
   document.getElementById("q").oninput = function(){
     boundsOnly = false;
-    render();
+    renderAll();
+    if(document.getElementById("filterSheet").classList.contains("show")) renderFilterSheet();
   };
-
+  document.getElementById("filterBtn").onclick = openFilter;
+  document.getElementById("modalBack").onclick = closeFilter;
+  document.getElementById("resetBtn").onclick = resetDraft;
+  document.getElementById("multiSwitch").onclick = function(){
+    draft.multi = !draft.multi;
+    renderFilterSheet();
+  };
+  document.getElementById("applyBtn").onclick = applyFilter;
+  document.getElementById("expandBtn").onclick = toggleDetail;
+  document.getElementById("detailHead").onclick = function(e){
+    if(e.target && e.target.id !== "detailClose") toggleDetail();
+  };
   document.getElementById("research").onclick = function(){
     boundsOnly = true;
-    render();
+    closeDetail();
+    renderAll();
   };
-
   document.getElementById("loc").onclick = locateMe;
   document.getElementById("mapTab").onclick = function(){ showTab("map"); };
   document.getElementById("listTab").onclick = function(){ showTab("list"); };
