@@ -1,30 +1,57 @@
 {
   "collected_at": "2026-10-02",
   "target_count": 300,
-  "saved_count": 300,
-  "rating_rule": "naver >= 4.0 OR kakao >= 4.0",
-  "scope": "서울특별시",
-  "priority": [
-    "동작구",
-    "영등포구",
-    "관악구",
-    "용산구",
-    "인접 지역",
-    "서울 나머지"
+  "saved_count": 181,
+  "qualified_count": 181,
+  "scope": [
+    "서울특별시",
+    "인천광역시",
+    "경기도"
   ],
-  "candidate_count": 806,
-  "qualified_collected_count": 333,
-  "district_counts": {
-    "동작구": 56,
-    "영등포구": 103,
-    "관악구": 43,
-    "용산구": 98
+  "approved_sources": [
+    "먹을텐데",
+    "또간집",
+    "최자로드",
+    "백종원",
+    "수요미식회",
+    "전현무계획",
+    "맛있는 녀석들",
+    "기타 유명맛집",
+    "흑백요리사"
+  ],
+  "rating_rule": "naver >= 4.0 OR kakao >= 4.0",
+  "priority": [
+    "서울 동작구",
+    "서울 영등포구·관악구",
+    "서울 용산구",
+    "서울 나머지·인천·경기"
+  ],
+  "region_counts": {
+    "서울특별시": 151,
+    "인천광역시": 10,
+    "경기도": 20
   },
+  "source_counts": {
+    "백종원": 35,
+    "맛있는 녀석들": 56,
+    "먹을텐데": 53,
+    "수요미식회": 30,
+    "또간집": 5,
+    "전현무계획": 7,
+    "최자로드": 8
+  },
+  "multiple_source_count": 13,
+  "candidate_count": 121,
+  "source_branch_matching": "공개 방송·유튜브 소개 목록의 이름 및 좌표(100m 이내) 또는 정확한 도로/지번·번지를 대조. 원문 주소와 근거 URL 보관. 체인 전체로 인증 확대하지 않음.",
   "rating_verification": "secondary_source",
-  "rating_note": "유추카 공개 자료에 표시된 네이버/카카오 평점을 전사. 플랫폼 원문 직접 검증 및 실시간 평점 아님. 미확인 플랫폼은 null. 제3자 자체 평점으로 대체하지 않음.",
-  "source": "https://youchuca.popit.kr/",
-  "menu_mentions_count": 256,
-  "menu_note": "공개 소개 자료의 리뷰에 실제 언급된 메뉴명을 최대 3개 기록. 현재 메뉴·가격 직접 검증 아님. 가격은 가격 확인으로 표시.",
-  "remaining_candidate_count": 22,
-  "data_sha256": "c4646f4d03c7f4ebe9a079994879572d44dd4a337a66bc61c453d4418f3a3cf5"
+  "naver_rating_policy": "공개 집계 자료의 displaysRating=true인 경우에만 네이버 수치를 사용. 표시 안 됨/미확인은 null.",
+  "rating_note": "공개 집계 자료의 플랫폼별 저장값이며 플랫폼 원문 직접 확인 및 실시간 값은 아님. 날짜 미확인은 null.",
+  "source_note": "지도를보다의 인정 4개 시리즈, 한류지도의 인정 TV 프로그램, 추가 수요미식회·3대천왕 회차별 주소 목록을 사용. 원본 영상 전체 시청 검증 아님. 기타 유명맛집·흑백요리사는 임의 해석으로 채우지 않음.",
+  "menu_note": "방송 소개 자료에 명시된 메뉴 또는 이전에 확인한 해당 지점 리뷰의 언급만 최대 3개. 가격 미확인은 가격 확인. 현재 판매 여부 재확인 필요.",
+  "sources_used": [
+    "https://seemap.co.kr/api/restaurants",
+    "https://hanlyu-map.com/contents",
+    "https://youchuca.popit.kr/"
+  ],
+  "data_sha256": "54c8b9225b74afb3349152f9e211b60e142a56ee6852a31f91f9ac32073c4c5d"
 }

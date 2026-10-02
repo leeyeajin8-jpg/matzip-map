@@ -1,5 +1,22 @@
 [
   {
+    "name": "상도실내포장마차",
+    "district": "동작구",
+    "cats": [
+      "한식",
+      "해산물"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [
+      "오징어통찜",
+      "오징어물회"
+    ],
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
+  },
+  {
     "name": "사이공리",
     "district": "동작구",
     "cats": [
@@ -11,7 +28,8 @@
     "menus": [
       "쌀국수"
     ],
-    "note": "동작구 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "서일순대국",
@@ -25,7 +43,25 @@
     "menus": [
       "순대국"
     ],
-    "note": "동작구 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
+  },
+  {
+    "name": "애플하우스",
+    "district": "동작구",
+    "cats": [
+      "분식"
+    ],
+    "sources": [
+      "수요미식회",
+      "최자로드"
+    ],
+    "menus": [
+      "즉석떡볶이",
+      "무침군만두"
+    ],
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "화목순대국",
@@ -40,7 +76,8 @@
       "순대국",
       "내장탕"
     ],
-    "note": "영등포 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "대한옥",
@@ -56,7 +93,8 @@
       "꼬리수육",
       "설렁탕"
     ],
-    "note": "영등포 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "줘마양다리구이",
@@ -71,7 +109,8 @@
     "menus": [
       "양다리구이"
     ],
-    "note": "영등포 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "정인면옥 본점",
@@ -86,7 +125,8 @@
     "menus": [
       "평양냉면"
     ],
-    "note": "영등포 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "은행골 여의도점",
@@ -100,7 +140,8 @@
     "menus": [
       "초밥"
     ],
-    "note": "영등포 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "갓포아키 여의도점",
@@ -115,23 +156,8 @@
     "menus": [
       "일식 코스"
     ],
-    "note": "복수 인증 후보 · 새 기준으로 추가 확인 필요"
-  },
-  {
-    "name": "진미식당",
-    "district": "용산구",
-    "cats": [
-      "한식",
-      "면"
-    ],
-    "sources": [
-      "먹을텐데"
-    ],
-    "menus": [
-      "콩국수",
-      "오징어볶음"
-    ],
-    "note": "용산 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "초원",
@@ -145,7 +171,24 @@
     "menus": [
       "한우 우설"
     ],
-    "note": "용산 우선 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
+  },
+  {
+    "name": "구복만두",
+    "district": "용산구",
+    "cats": [
+      "중식"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [
+      "만두",
+      "샤오롱바오"
+    ],
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "자리",
@@ -160,7 +203,8 @@
       "짬뽕",
       "목화솜탕수육"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "이태원양꼬치",
@@ -176,7 +220,8 @@
       "양꼬치",
       "꿔바로우"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "아티장베이커스 한남",
@@ -191,7 +236,8 @@
       "크루아상",
       "빵"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "갯마을 한강로점",
@@ -206,7 +252,8 @@
       "만두국",
       "떡만두국"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "강가네맷돌빈대떡",
@@ -221,7 +268,8 @@
       "왕새우전",
       "빈대떡"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "두에 꼬제",
@@ -236,7 +284,8 @@
       "파스타",
       "화덕피자"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "지노스뉴욕피자",
@@ -250,7 +299,8 @@
     "menus": [
       "피자"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "네키드윙즈",
@@ -264,7 +314,8 @@
     "menus": [
       "버팔로윙"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "부자피자 1호점",
@@ -278,7 +329,8 @@
     "menus": [
       "화덕피자"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "모터시티바이매니멀",
@@ -293,7 +345,8 @@
       "디트로이트피자",
       "파스타"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "평양집",
@@ -308,7 +361,8 @@
       "내장탕",
       "해장국"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
   },
   {
     "name": "땅끝마을매생이굴국밥",
@@ -323,6 +377,1471 @@
     "menus": [
       "매생이굴국밥"
     ],
-    "note": "용산 후보 · 새 기준으로 추가 확인 필요"
+    "note": "기존 우선 후보 · 출처·지점 및 네이버 또는 카카오 4.0 이상 재확인 필요",
+    "region": "서울특별시"
+  },
+  {
+    "name": "엄마손만두",
+    "region": "서울특별시",
+    "district": "강동구",
+    "address": "서울특별시 강동구 올림픽로 683",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1924ae9456bf41b604713e"
+  },
+  {
+    "name": "골목떡볶이",
+    "region": "서울특별시",
+    "district": "송파구",
+    "address": "서울특별시 송파구 문정로1길 33",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1851486119f4125684ce66"
+  },
+  {
+    "name": "한국횟집",
+    "region": "서울특별시",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 중랑역로 34 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18512b6119f4125684ce30"
+  },
+  {
+    "name": "서린낙지",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 종로 19 르메이에르종로타운1 2층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데",
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a19267c9456bf41b60473a9"
+  },
+  {
+    "name": "닭진미강원집",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문시장길 22-20",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "최자로드"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192e269456bf41b6047e1a"
+  },
+  {
+    "name": "진주회관",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 세종대로11길 26",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "최자로드"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1850e96119f4125684cdd0"
+  },
+  {
+    "name": "은주정",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 창경궁로8길 32",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "최자로드"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1929909456bf41b60477c8"
+  },
+  {
+    "name": "영덕회식당",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 창경궁로1길 6 1층 영덕회식당",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18518a6119f4125684cec6"
+  },
+  {
+    "name": "필동면옥",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 서애로 26",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1929e69456bf41b6047839"
+  },
+  {
+    "name": "오두산막국수 본점",
+    "region": "경기도",
+    "district": "파주시",
+    "address": "경기도 파주시 평화로 204 오두산막국수 본점",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192ce19456bf41b6047c5e"
+  },
+  {
+    "name": "몽탄",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 백범로99길 50",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d20f9456bf41b6045fff"
+  },
+  {
+    "name": "남영돈",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 한강대로80길 17 남영돈",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1851706119f4125684cea0"
+  },
+  {
+    "name": "본수원갈비",
+    "region": "경기도",
+    "district": "수원시",
+    "address": "경기도 수원시 팔달구 중부대로223번길 41",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d2439456bf41b604603e"
+  },
+  {
+    "name": "부평막국수",
+    "region": "인천광역시",
+    "district": "부평구",
+    "address": "인천광역시 부평구 부평대로63번길 10-8",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192da79456bf41b6047d64"
+  },
+  {
+    "name": "현래장",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 마포대로 20 다보빌딩 지하1층 현래장",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192e4b9456bf41b6047e51"
+  },
+  {
+    "name": "홍명",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 논현로131길 10 미현빌딩 1층 홍명",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d1c39456bf41b6045f9c"
+  },
+  {
+    "name": "유치회관",
+    "region": "경기도",
+    "district": "수원시",
+    "address": "경기도 수원시 팔달구 효원로292번길 67",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192db89456bf41b6047d7f"
+  },
+  {
+    "name": "일미집",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 후암로 1-1",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9d8b38edd91d79896b3c"
+  },
+  {
+    "name": "굴다리식당",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 새창로 8-1",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192e4a9456bf41b6047e4f"
+  },
+  {
+    "name": "해봉정육 본점",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 테헤란로108길 25 대동빌딩 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d2309456bf41b6046022"
+  },
+  {
+    "name": "김수사",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 도산대로12길 7 지하1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18513b6119f4125684ce4e"
+  },
+  {
+    "name": "할머니묵집",
+    "region": "경기도",
+    "district": "파주시",
+    "address": "경기도 파주시 돌곶이길 108-5 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a519060ad6cb950e0ac089b"
+  },
+  {
+    "name": "함흥냉면",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 영등포로42길 6",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192fd39456bf41b6048019"
+  },
+  {
+    "name": "공항칼국수",
+    "region": "서울특별시",
+    "district": "강서구",
+    "address": "서울특별시 강서구 공항대로 18-1 이스카이오피스텔 지하1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192a189456bf41b604785a"
+  },
+  {
+    "name": "산골농원",
+    "region": "경기도",
+    "district": "가평군",
+    "address": "경기 가평군 설악면 어비산길99번길 75-7",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1a1f896f44645919d84974"
+  },
+  {
+    "name": "양남한우정육식당",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 선유로24길 8",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eeeb466c983ed989c97a"
+  },
+  {
+    "name": "남동어시장",
+    "region": "인천광역시",
+    "district": "남동구",
+    "address": "인천광역시 남동구 하촌로71번길 45 1층 남동어시장",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "또간집"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a64242273faa86ffb8ed445"
+  },
+  {
+    "name": "오복순대국",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 도림로 465",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "또간집"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9ace38edd91d798967db"
+  },
+  {
+    "name": "압구정진주 한남직영점",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 대사관로30길 11-6 압구정진주",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eed4466c983ed989c957"
+  },
+  {
+    "name": "에버그린",
+    "region": "경기도",
+    "district": "안양시",
+    "address": "경기도 안양시 동안구 인덕원로 29-16",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획",
+      "백종원",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192ed69456bf41b6047f18"
+  },
+  {
+    "name": "팀호완 삼성점",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 봉은사로86길 30 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d20c9456bf41b6045ff9"
+  },
+  {
+    "name": "고다이 한남본점",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 한남대로18길 28 1층 고다이",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18d20a9456bf41b6045ff5"
+  },
+  {
+    "name": "마포원조떡볶이",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 도화2길 3",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192e4d9456bf41b6047e53"
+  },
+  {
+    "name": "오달통분식",
+    "region": "경기도",
+    "district": "김포시",
+    "address": "경기도 김포시 북변중로65번길 56",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa38eaa6ee0202633d81006"
+  },
+  {
+    "name": "약수순대국",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 동호로7길 14 약수더시티 1층 111호 약수순대국",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1924839456bf41b60470ff"
+  },
+  {
+    "name": "울타리곱창",
+    "region": "서울특별시",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 중랑역로 20 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eecc466c983ed989c948"
+  },
+  {
+    "name": "남도보쌈파전",
+    "region": "서울특별시",
+    "district": "동대문구",
+    "address": "서울특별시 동대문구 장한로 160 대진빌딩 1층, 남도보쌈파전",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18512a6119f4125684ce2e"
+  },
+  {
+    "name": "옥동식",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 양화로7길 44-10",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a2efa40a8c7e538ea3cf0be"
+  },
+  {
+    "name": "개화 명동점",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문로 52-5 대한문화예술공사",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a783fdcc3f1ad574094d02f"
+  },
+  {
+    "name": "수동상회",
+    "region": "서울특별시",
+    "district": "송파구",
+    "address": "서울특별시 송파구 양재대로 932 가락몰5관 가락몰회센타1층 내",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a7e9c174aa92e7463fba422"
+  },
+  {
+    "name": "돈까스먹는용만이",
+    "region": "서울특별시",
+    "district": "노원구",
+    "address": "서울특별시 노원구 한글비석로20길 52",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192c2c9456bf41b6047b7e"
+  },
+  {
+    "name": "군포왕족발",
+    "region": "경기도",
+    "district": "군포시",
+    "address": "경기도 군포시 산본로179번길 23 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa392736ee0202633d812ae"
+  },
+  {
+    "name": "유래초밥",
+    "region": "인천광역시",
+    "district": "계양구",
+    "address": "인천광역시 계양구 계산로 128 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a784fd3e2cbe92948a04ddf"
+  },
+  {
+    "name": "논밭골 봉천점",
+    "region": "서울특별시",
+    "district": "관악구",
+    "address": "서울특별시 관악구 청룡길 30",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192f8d9456bf41b6047fd7"
+  },
+  {
+    "name": "삼각정",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 한강대로 151 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eecb466c983ed989c946"
+  },
+  {
+    "name": "한신치킨호프",
+    "region": "서울특별시",
+    "district": "서초구",
+    "address": "서울특별시 서초구 신반포로23길 30 반원상가",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eec4466c983ed989c940"
+  },
+  {
+    "name": "엄마순대",
+    "region": "서울특별시",
+    "district": "광진구",
+    "address": "서울특별시 광진구 뚝섬로 472",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eebf466c983ed989c936"
+  },
+  {
+    "name": "부농정육식당",
+    "region": "서울특별시",
+    "district": "송파구",
+    "address": "서울특별시 송파구 백제고분로28길 29 1층 부농정육식당",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51d1f668cdf344889ae6f2"
+  },
+  {
+    "name": "은성보쌈",
+    "region": "서울특별시",
+    "district": "성동구",
+    "address": "서울특별시 성동구 독서당로 297-6",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a541a1de83b146ad77b13ef"
+  },
+  {
+    "name": "소문난성수감자탕 별관",
+    "region": "서울특별시",
+    "district": "성동구",
+    "address": "서울특별시 성동구 연무장7길 4 해피드림",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데",
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1850dc6119f4125684cdb8"
+  },
+  {
+    "name": "무교동유정낙지 압구정점",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 논현로163길 10 베드로빌딩 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eed3466c983ed989c955"
+  },
+  {
+    "name": "맛좋은순대국",
+    "region": "서울특별시",
+    "district": "광진구",
+    "address": "서울특별시 광진구 자양번영로1길 22",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9acf38edd91d798967dd"
+  },
+  {
+    "name": "다로베",
+    "region": "서울특별시",
+    "district": "성동구",
+    "address": "서울특별시 성동구 서울숲길 51 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a541a3ae83b146ad77b1402"
+  },
+  {
+    "name": "훼미리손칼국수보쌈",
+    "region": "서울특별시",
+    "district": "성동구",
+    "address": "서울특별시 성동구 왕십리로 134",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "전현무계획"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a18510c6119f4125684ce04"
+  },
+  {
+    "name": "서북면옥",
+    "region": "서울특별시",
+    "district": "광진구",
+    "address": "서울특별시 광진구 자양로 199-1 서북면옥",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "최자로드"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51c249ad6cb950e0ac17ec"
+  },
+  {
+    "name": "기찻길풍경 야채곱창",
+    "region": "서울특별시",
+    "district": "노원구",
+    "address": "서울특별시 노원구 공릉로39길 21",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa392ec6ee0202633d812e7"
+  },
+  {
+    "name": "제일분식",
+    "region": "서울특별시",
+    "district": "강북구",
+    "address": "서울특별시 강북구 숭인로 65-3",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa3906f6ee0202633d81177"
+  },
+  {
+    "name": "호수집",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 청파로 443",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "최자로드"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1850d86119f4125684cdb2"
+  },
+  {
+    "name": "이품",
+    "region": "서울특별시",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 연희로11길 20",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1851726119f4125684cea4"
+  },
+  {
+    "name": "철길왕갈비살",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 와우산로32길 24",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eee3466c983ed989c96c"
+  },
+  {
+    "name": "홍은손칼국수전문점",
+    "region": "서울특별시",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 홍은중앙로 27",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a192c6a9456bf41b6047bda"
+  },
+  {
+    "name": "먹거리집",
+    "region": "서울특별시",
+    "district": "중랑구",
+    "address": "서울특별시 중랑구 면목로91길 8",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9e2c38edd91d79896bf5"
+  },
+  {
+    "name": "영미오리탕",
+    "region": "서울특별시",
+    "district": "광진구",
+    "address": "서울특별시 광진구 동일로60길 53",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a7e9c484aa92e7463fba438"
+  },
+  {
+    "name": "이가네가마솥설렁탕",
+    "region": "서울특별시",
+    "district": "은평구",
+    "address": "서울 은평구 진흥로 130",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4ed5bfde4882509586417a"
+  },
+  {
+    "name": "대운식당",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 역삼로5길 6",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1850896119f4125684cd28"
+  },
+  {
+    "name": "세스크멘슬",
+    "region": "서울특별시",
+    "district": "성동구",
+    "address": "서울특별시 성동구 성수이로14길 7 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eee5466c983ed989c970"
+  },
+  {
+    "name": "장모님해장국",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 진흥로 421",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51c006ad6cb950e0ac1620"
+  },
+  {
+    "name": "야키토리 쿠이신보 합정점",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 양화로6길 38 2층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9efa38edd91d79896cde"
+  },
+  {
+    "name": "스시스미레",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울특별시 강남구 도산대로55길 18 4층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a66cad9fdb377341f72e9d1"
+  },
+  {
+    "name": "너도나도식당 선유도본점",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "address": "서울특별시 영등포구 양평로 126 신성빌딩 1층 너도나도식당",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa3906d6ee0202633d81173"
+  },
+  {
+    "name": "해남순대국",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 다산로8길 8",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1924819456bf41b60470fd"
+  },
+  {
+    "name": "돈암순대",
+    "region": "서울특별시",
+    "district": "성북구",
+    "address": "서울특별시 성북구 동소문로18길 12",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a894b748660db3014a77c9a"
+  },
+  {
+    "name": "두오모",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 자하문로16길 5 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a56876aa5f8f10051bdd42f"
+  },
+  {
+    "name": "할매집",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 사직로12길 1-5",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51cb52ad6cb950e0ac1c87"
+  },
+  {
+    "name": "자하손만두",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 백석동길 12",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a6598bffdb377341f72e01d"
+  },
+  {
+    "name": "사발",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 사직로8길 34 경희궁의아침 3단지 사발 142호",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a7c67fd204ca81d3ffa0f39"
+  },
+  {
+    "name": "대련집",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 종로16길 37",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "또간집"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4ee2f6377a7673b3f8ee96"
+  },
+  {
+    "name": "산동교자",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문로 52-13",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a541b37e83b146ad77b149c"
+  },
+  {
+    "name": "홍복",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문시장길 73-3 일신빌딩 1층 - 5층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51d29c68cdf344889ae80f"
+  },
+  {
+    "name": "문화옥",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 창경궁로 62-5",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a32eee6466c983ed989c972"
+  },
+  {
+    "name": "실비식당",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 마른내로6길 14 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a7849f2e2cbe92948a04a45"
+  },
+  {
+    "name": "유진치킨 홍제점",
+    "region": "서울특별시",
+    "district": "서대문구",
+    "address": "서울 서대문구 세무서7길 13",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4ed5b5de48825095864178"
+  },
+  {
+    "name": "정가네팥칼국수",
+    "region": "서울특별시",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 세무서7길 7 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa392d06ee0202633d812d8"
+  },
+  {
+    "name": "효동각 본점",
+    "region": "서울특별시",
+    "district": "서대문구",
+    "address": "서울특별시 서대문구 연대동문길 24",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51d25b68cdf344889ae7c7"
+  },
+  {
+    "name": "경춘자의라면땡기는날",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 율곡로3길 82",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1f284ad1e1a913e91fdaa2"
+  },
+  {
+    "name": "김여사네 국수",
+    "region": "서울특별시",
+    "district": "강동구",
+    "address": "서울특별시 강동구 천호대로162길 19 김여사네 국수",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa3928b6ee0202633d812bf"
+  },
+  {
+    "name": "이조순대국",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 원효로41길 54 이조순대국",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51bf68ad6cb950e0ac15ad"
+  },
+  {
+    "name": "창수린",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 두텁바위로 55",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a1930649456bf41b60480d6"
+  },
+  {
+    "name": "자코비버거 본점",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울특별시 용산구 신흥로 38 1층 자코비버거",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "또간집"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a99b5d4b6574027074fe8d3"
+  },
+  {
+    "name": "테이스티버거",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울특별시 마포구 독막로 67-11 행운빌딩 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa3920d6ee0202633d8126d"
+  },
+  {
+    "name": "광화문집",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 새문안로5길 12",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4f9abe38edd91d798967c8"
+  },
+  {
+    "name": "란주칼면",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 소공로 64 1층 란주칼면",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "또간집"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a51d22a68cdf344889ae770"
+  },
+  {
+    "name": "솜이네떡볶이",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 퇴계로42길 36 솜이네떡볶이",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6aa392b36ee0202633d812cd"
+  },
+  {
+    "name": "찬양집",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 돈화문로11다길 5",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "백종원",
+      "맛있는 녀석들"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a4ee380377a7673b3f8ef46"
+  },
+  {
+    "name": "감촌",
+    "region": "서울특별시",
+    "district": "종로구",
+    "address": "서울특별시 종로구 종로 19 르메이에르종로타운 512호",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "수요미식회"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a7c67c7204ca81d3ffa0e76"
+  },
+  {
+    "name": "향미 명동점",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울특별시 중구 남대문로 52-5 1층",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a784993e2cbe92948a049e7"
+  },
+  {
+    "name": "을지칼국수",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울 중구 충무로 54-3",
+    "cats": [
+      "기타"
+    ],
+    "sources": [
+      "먹을텐데"
+    ],
+    "menus": [],
+    "note": "공개 표시 네이버 또는 카카오 4.0 이상 평점 미확인",
+    "research_url": "https://youchuca.popit.kr/place/6a9b7338c95db978d57538b9"
   }
 ]

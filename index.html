@@ -141,12 +141,12 @@
   <header class="top">
     <div class="brandRow">
       <div class="brand">인증맛집</div>
-      <div class="brandSub">네이버 또는 카카오 4.0+</div>
+      <div class="brandSub">서울·인천·경기 · 네이버 또는 카카오 4.0+</div>
     </div>
     <div class="searchRow">
       <div class="searchBox">
         <span class="searchIcon">⌕</span>
-        <input id="q" class="search" placeholder="맛집이나 음식 종류 검색">
+        <input id="q" class="search" placeholder="맛집·메뉴·서울·인천·경기 지역 검색">
       </div>
       <button id="filterBtn" class="filterBtn">필터 <span id="filterBadge" class="badge">0</span></button>
     </div>
@@ -259,6 +259,7 @@
     var sourceOk = (state.sources || []).every(function(s){ return (r.sources || []).indexOf(s) >= 0; });
     var textOk = !term ||
       String(r.name || "").toLowerCase().indexOf(term) >= 0 ||
+      String((r.region || "") + " " + (r.district || "") + " " + (r.address || "")).toLowerCase().indexOf(term) >= 0 ||
       String(r.raw_category || "").toLowerCase().indexOf(term) >= 0 ||
       (r.cats || []).some(function(c){ return c.toLowerCase().indexOf(term) >= 0; }) ||
       (r.menu || []).some(function(m){ return String(m[0] || "").toLowerCase().indexOf(term) >= 0; });
@@ -330,7 +331,11 @@
   function researchLinks(r){
     var links = [];
     var research = safeUrl(r.research_url);
-    if(research) links.push('<a href="' + esc(research) + '" target="_blank" rel="noopener noreferrer">평점·소개 근거</a>');
+    if(research) links.push('<a href="' + esc(research) + '" target="_blank" rel="noopener noreferrer">평점 근거</a>');
+    (r.source_evidence || []).forEach(function(e){
+      var url = safeUrl(e.url);
+      if(url) links.push('<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(e.source) + ' 지점 근거</a>');
+    });
     var seen = [];
     (r.source_videos || []).forEach(function(v){
       var url = safeUrl(v.url);
@@ -349,7 +354,7 @@
     document.getElementById("detailHead").innerHTML =
       '<button id="detailClose" class="detailClose" aria-label="닫기">×</button>' +
       '<div class="detailTitle">' + esc(r.name) + '</div>' +
-      '<div class="detailMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + '</div>' +
+      '<div class="detailMeta">' + esc((r.region || "") + " " + r.district) + ' · ' + esc((r.cats || []).join(" · ")) + '</div>' +
       '<div class="ratings"><span class="rating">네이버 ' + ratingText(r.naver) + '</span><span class="rating">카카오 ' + ratingText(r.kakao) + '</span></div>' +
       '<div class="tags detailTags">' + tags + '</div>';
 
@@ -395,7 +400,7 @@
     document.getElementById("candidateCards").innerHTML = rows.map(function(x){
       var tags = (x.sources || []).map(function(s){ return '<span class="tag">' + esc(s) + '</span>'; }).join("");
       return '<div class="candidateCard"><h3>' + esc(x.name) + '</h3>' +
-        '<div class="cardMeta">' + esc(x.district) + ' · ' + esc((x.cats || []).join(" · ")) + '</div>' +
+        '<div class="cardMeta">' + esc((x.region || "") + " " + x.district) + ' · ' + esc((x.cats || []).join(" · ")) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
         '<div style="margin-top:9px"><small>' + esc((x.menus || []).join(" · ")) + '</small></div>' +
         '<div class="candidateNote">' + esc(x.note) + ' · 네이버 또는 카카오 4.0 이상 확인 전 후보</div></div>';
@@ -408,7 +413,7 @@
     document.getElementById("cards").innerHTML = rows.map(function(r){
       var tags = (r.sources || []).map(function(s){ return '<span class="tag">' + esc(s) + '</span>'; }).join("");
       return '<div class="card" data-id="' + esc(r.id) + '"><h3>' + esc(r.name) + '</h3>' +
-        '<div class="cardMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + ratingText(r.naver) + ' / 카카오 ' + ratingText(r.kakao) + '</div>' +
+        '<div class="cardMeta">' + esc((r.region || "") + " " + r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + ratingText(r.naver) + ' / 카카오 ' + ratingText(r.kakao) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
         '<div style="margin-top:9px"><small>' + esc((r.menu || []).map(function(m){ return m[0]; }).join(" · ")) + '</small></div></div>';
     }).join("");
@@ -576,7 +581,7 @@
     }
     map = new naver.maps.Map("map",{
       center:new naver.maps.LatLng(37.5666103,126.9783882),
-      zoom:11,
+      zoom:10,
       minZoom:7,
       zoomControl:false
     });
@@ -592,9 +597,13 @@
     fetch("./data.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("data"); return r.json(); }),
     fetch("./candidates_priority.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("candidate"); return r.json(); })
   ]).then(function(values){
-    R = values[0].filter(function(r){ return typeof r.naver === 'number' && r.naver >= 4 || typeof r.kakao === 'number' && r.kakao >= 4; });
+    R = values[0].filter(function(r){
+      var ratingOk = typeof r.naver === 'number' && r.naver >= 4 || typeof r.kakao === 'number' && r.kakao >= 4;
+      var regionOk = ['서울특별시','인천광역시','경기도'].indexOf(r.region) >= 0;
+      var sourceOk = Array.isArray(r.sources) && r.sources.length > 0 && r.sources.every(function(s){ return SOURCES.indexOf(s) >= 0 && (r.source_evidence || []).some(function(e){ return e.source === s && safeUrl(e.url); }); });
+      return ratingOk && regionOk && sourceOk;
+    });
     CANDIDATES = values[1];
-    SOURCES = Array.from(new Set(R.reduce(function(all,r){ return all.concat(r.sources || []); },[]))).sort();
     renderAll();
     locateMe();
   }).catch(function(){
