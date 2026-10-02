@@ -1,0 +1,5120 @@
+[
+  {
+    "id": 100001,
+    "name": "북한산장",
+    "region": "서울특별시",
+    "district": "강북구",
+    "location_hint": "강북구 우이동",
+    "address": "서울특별시 강북구 삼양로 528 2층",
+    "naver_place_id": "2014856478",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2014856478",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6500851,
+    "lng": 127.0136566,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 67,
+        "url": "https://search.naver.com/search.naver?query=%EB%B6%81%ED%95%9C%EC%82%B0%EC%9E%A5%20%EA%B0%95%EB%B6%81%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "우이동 72-78",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B6%81%ED%95%9C%EC%82%B0%EC%9E%A5%20%EA%B0%95%EB%B6%81%EA%B5%AC",
+      "place_id": "2014856478",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "BRUNCH 당근밭의 잠봉",
+        "가격 확인"
+      ],
+      [
+        "COFFEE",
+        "가격 확인"
+      ],
+      [
+        "차 TEA",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2014856478",
+    "desc": "강북구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100002,
+    "name": "올더프",
+    "region": "서울특별시",
+    "district": "송파구",
+    "location_hint": "송파구 오금동",
+    "address": "서울 송파구 위례성대로20길 22 1층",
+    "naver_place_id": "2032133215",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2032133215",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5094807,
+    "lng": 127.1274067,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 797,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%AC%EB%8D%94%ED%94%84%20%EC%86%A1%ED%8C%8C%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 송파구 오금동 17-16",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%AC%EB%8D%94%ED%94%84%20%EC%86%A1%ED%8C%8C%EA%B5%AC",
+      "place_id": "2032133215",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2032133215",
+    "desc": "송파구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100003,
+    "name": "예빈당 여의도한강공원점",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "location_hint": "영등포구 여의도동",
+    "address": "서울 영등포구 여의도한강공원길 231 서울크루즈 2층",
+    "naver_place_id": "2002270613",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2002270613",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5296714,
+    "lng": 126.9337487,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 110,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%88%EB%B9%88%EB%8B%B9%20%EC%97%AC%EC%9D%98%EB%8F%84%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 영등포구 여의도동 85-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%88%EB%B9%88%EB%8B%B9%20%EC%97%AC%EC%9D%98%EB%8F%84%ED%95%9C%EA%B0%95%EA%B3%B5%EC%9B%90%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+      "place_id": "2002270613",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2002270613",
+    "desc": "영등포구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100004,
+    "name": "트랍",
+    "region": "서울특별시",
+    "district": "용산구",
+    "location_hint": "용산구 용산동2가",
+    "address": "서울 용산구 신흥로 101-4 1~2층",
+    "naver_place_id": "2045605196",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2045605196",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5447697,
+    "lng": 126.9846339,
+    "naver": 4.96,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.96,
+        "review_count": 259,
+        "url": "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%9E%8D%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 용산구 용산동2가 1-97",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%8A%B8%EB%9E%8D%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+      "place_id": "2045605196",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2045605196",
+    "desc": "용산구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100005,
+    "name": "브루브루 천호점",
+    "region": "서울특별시",
+    "district": "강동구",
+    "location_hint": "강동구 천호동",
+    "address": "서울특별시 강동구 올림픽로78길 60 102동 104호, 105호, 106호",
+    "naver_place_id": "2024584509",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2024584509",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5408882,
+    "lng": 127.127981,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 515,
+        "url": "https://search.naver.com/search.naver?query=%EB%B8%8C%EB%A3%A8%EB%B8%8C%EB%A3%A8%20%EC%B2%9C%ED%98%B8%EC%A0%90%20%EA%B0%95%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "천호동 423-200",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B8%8C%EB%A3%A8%EB%B8%8C%EB%A3%A8%20%EC%B2%9C%ED%98%B8%EC%A0%90%20%EA%B0%95%EB%8F%99%EA%B5%AC",
+      "place_id": "2024584509",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "브루브루커피",
+        "가격 확인"
+      ],
+      [
+        "에스프레소",
+        "가격 확인"
+      ],
+      [
+        "아메리카노",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2024584509",
+    "desc": "강동구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100006,
+    "name": "틈틈틈",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "location_hint": "영등포구 문래동2가",
+    "address": "서울 영등포구 도림로139길 17-3 1층",
+    "naver_place_id": "2089004600",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2089004600",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5134004,
+    "lng": 126.8929906,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 143,
+        "url": "https://search.naver.com/search.naver?query=%ED%8B%88%ED%8B%88%ED%8B%88%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 영등포구 문래동2가 49-5",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%8B%88%ED%8B%88%ED%8B%88%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+      "place_id": "2089004600",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2089004600",
+    "desc": "영등포구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100007,
+    "name": "아우어베이커리 용리단길점",
+    "region": "서울특별시",
+    "district": "용산구",
+    "location_hint": "용산구 한강로2가",
+    "address": "서울 용산구 한강대로40길 25 1층",
+    "naver_place_id": "2083501873",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2083501873",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5302883,
+    "lng": 126.9706074,
+    "naver": 4.94,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.94,
+        "review_count": 324,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EC%9A%B0%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%9A%A9%EB%A6%AC%EB%8B%A8%EA%B8%B8%EC%A0%90%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 용산구 한강로2가 77-2",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EC%9A%B0%EC%96%B4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%9A%A9%EB%A6%AC%EB%8B%A8%EA%B8%B8%EC%A0%90%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+      "place_id": "2083501873",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2083501873",
+    "desc": "용산구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100008,
+    "name": "볼스 여의도점",
+    "region": "서울특별시",
+    "district": "영등포구",
+    "location_hint": "영등포구 여의도동",
+    "address": "서울 영등포구 국회대로 800 B2층 4호",
+    "naver_place_id": "2094298325",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2094298325",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5309294,
+    "lng": 126.9210835,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 16,
+        "url": "https://search.naver.com/search.naver?query=%EB%B3%BC%EC%8A%A4%20%EC%97%AC%EC%9D%98%EB%8F%84%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 영등포구 여의도동 13",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B3%BC%EC%8A%A4%20%EC%97%AC%EC%9D%98%EB%8F%84%EC%A0%90%20%EC%98%81%EB%93%B1%ED%8F%AC%EA%B5%AC",
+      "place_id": "2094298325",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2094298325",
+    "desc": "영등포구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100009,
+    "name": "아워쿠쿠",
+    "region": "서울특별시",
+    "district": "중구",
+    "location_hint": "중구 신당동",
+    "address": "서울 중구 다산로38길 12 101호",
+    "naver_place_id": "2059037130",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2059037130",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5630919,
+    "lng": 127.0163507,
+    "naver": 4.93,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.93,
+        "review_count": 96,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EC%9B%8C%EC%BF%A0%EC%BF%A0%20%EC%A4%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 중구 신당동 292-14",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EC%9B%8C%EC%BF%A0%EC%BF%A0%20%EC%A4%91%EA%B5%AC",
+      "place_id": "2059037130",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2059037130",
+    "desc": "중구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100010,
+    "name": "에브리데이크리스마스 역삼점",
+    "region": "서울특별시",
+    "district": "강남구",
+    "location_hint": "강남구 역삼동",
+    "address": "서울 강남구 논현로 515 1층",
+    "naver_place_id": "2051720575",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2051720575",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5025727,
+    "lng": 127.0357987,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 205,
+        "url": "https://search.naver.com/search.naver?query=%EC%97%90%EB%B8%8C%EB%A6%AC%EB%8D%B0%EC%9D%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%20%EC%97%AD%EC%82%BC%EC%A0%90%20%EA%B0%95%EB%82%A8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 강남구 역삼동 641-10",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%97%90%EB%B8%8C%EB%A6%AC%EB%8D%B0%EC%9D%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%EB%A7%88%EC%8A%A4%20%EC%97%AD%EC%82%BC%EC%A0%90%20%EA%B0%95%EB%82%A8%EA%B5%AC",
+      "place_id": "2051720575",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2051720575",
+    "desc": "강남구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100011,
+    "name": "에뜰담 베이커리카페",
+    "region": "서울특별시",
+    "district": "은평구",
+    "location_hint": "은평구 불광동",
+    "address": "서울 은평구 연서로 261-5 1층",
+    "naver_place_id": "2037859168",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2037859168",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6205052,
+    "lng": 126.9238622,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 136,
+        "url": "https://search.naver.com/search.naver?query=%EC%97%90%EB%9C%B0%EB%8B%B4%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98%20%EC%9D%80%ED%8F%89%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 은평구 불광동 314-20",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%97%90%EB%9C%B0%EB%8B%B4%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98%20%EC%9D%80%ED%8F%89%EA%B5%AC",
+      "place_id": "2037859168",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2037859168",
+    "desc": "은평구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100012,
+    "name": "아도르베이커리",
+    "region": "서울특별시",
+    "district": "마포구",
+    "location_hint": "마포구 아현동",
+    "address": "서울 마포구 마포대로 195 1단지상가 114호",
+    "naver_place_id": "2037986045",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2037986045",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.555522,
+    "lng": 126.9547533,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 109,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%8F%84%EB%A5%B4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 마포구 아현동 777",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%8F%84%EB%A5%B4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+      "place_id": "2037986045",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2037986045",
+    "desc": "마포구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100013,
+    "name": "이지화이트브레드 이수점",
+    "region": "서울특별시",
+    "district": "동작구",
+    "location_hint": "동작구 사당동",
+    "address": "서울 동작구 동작대로27길 28 1층",
+    "naver_place_id": "2068521768",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2068521768",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4876207,
+    "lng": 126.9804516,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 256,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EC%9D%B4%EC%88%98%EC%A0%90%20%EB%8F%99%EC%9E%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 동작구 사당동 130-20",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EC%9D%B4%EC%88%98%EC%A0%90%20%EB%8F%99%EC%9E%91%EA%B5%AC",
+      "place_id": "2068521768",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2068521768",
+    "desc": "동작구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100014,
+    "name": "오늘은소금빵",
+    "region": "서울특별시",
+    "district": "마포구",
+    "location_hint": "마포구 신수동",
+    "address": "서울특별시 마포구 신수동",
+    "naver_place_id": "2054770944",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2054770944",
+        "note": "네이버 통합검색 새로 오픈했어요 영역 노출 확인",
+        "checked_at": "2026-10-02",
+        "verification_method": "2026-10-02 수집목록의 네이버 Place ID"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-02",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": null,
+    "lng": null,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페·빵집",
+    "rating_evidence": [],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": false,
+    "naver_url": "https://map.naver.com/p/entry/place/2054770944",
+    "menu": [],
+    "desc": "마포구의 카페·빵집. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "source_only_current_address_unconfirmed"
+  },
+  {
+    "id": 100015,
+    "name": "디아뜨레",
+    "region": "서울특별시",
+    "district": "중구",
+    "location_hint": "중구 필동2가",
+    "address": "서울 중구 퇴계로 210-4 1층",
+    "naver_place_id": "2033380549",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2033380549",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5611485,
+    "lng": 126.9950325,
+    "naver": 4.99,
+    "kakao": null,
+    "raw_category": "카페",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.99,
+        "review_count": 150,
+        "url": "https://search.naver.com/search.naver?query=%EB%94%94%EC%95%84%EB%9C%A8%EB%A0%88%20%EC%A4%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 중구 필동2가 15-14",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%94%94%EC%95%84%EB%9C%A8%EB%A0%88%20%EC%A4%91%EA%B5%AC",
+      "place_id": "2033380549",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2033380549",
+    "desc": "중구의 카페. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100016,
+    "name": "이지화이트브레드 화랑대역점",
+    "region": "서울특별시",
+    "district": "노원구",
+    "location_hint": "노원구 공릉동",
+    "address": "서울 노원구 노원로1길 67 1층 109-1호",
+    "naver_place_id": "2036396981",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2036396981",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6208327,
+    "lng": 127.0836582,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 451,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%ED%99%94%EB%9E%91%EB%8C%80%EC%97%AD%EC%A0%90%20%EB%85%B8%EC%9B%90%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 노원구 공릉동 89-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%ED%99%94%EB%9E%91%EB%8C%80%EC%97%AD%EC%A0%90%20%EB%85%B8%EC%9B%90%EA%B5%AC",
+      "place_id": "2036396981",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2036396981",
+    "desc": "노원구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100017,
+    "name": "기리제빵소",
+    "region": "서울특별시",
+    "district": "관악구",
+    "location_hint": "관악구 봉천동",
+    "address": "서울 관악구 장군봉1길 3 1층",
+    "naver_place_id": "2081704281",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2081704281",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.482304,
+    "lng": 126.9403033,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 63,
+        "url": "https://search.naver.com/search.naver?query=%EA%B8%B0%EB%A6%AC%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EA%B4%80%EC%95%85%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 관악구 봉천동 930-35",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EA%B8%B0%EB%A6%AC%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EA%B4%80%EC%95%85%EA%B5%AC",
+      "place_id": "2081704281",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2081704281",
+    "desc": "관악구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100018,
+    "name": "라운지25 원미점",
+    "region": "경기도",
+    "district": "부천시 원미구",
+    "location_hint": "부천시 원미구 심곡동",
+    "address": "경기 부천시 원미구 부천로 143 1층 100호",
+    "naver_place_id": "2049665200",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2049665200",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4971432,
+    "lng": 126.7852606,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 263,
+        "url": "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9A%B4%EC%A7%8025%20%EC%9B%90%EB%AF%B8%EC%A0%90%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 부천시 원미구 심곡동 87-2",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%9D%BC%EC%9A%B4%EC%A7%8025%20%EC%9B%90%EB%AF%B8%EC%A0%90%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+      "place_id": "2049665200",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2049665200",
+    "desc": "부천시 원미구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100019,
+    "name": "에이미미버터",
+    "region": "경기도",
+    "district": "의정부시",
+    "location_hint": "의정부시 의정부동",
+    "address": "경기 의정부시 흥선로 179 B동 1, 2, 3층",
+    "naver_place_id": "2042328344",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2042328344",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.7406883,
+    "lng": 127.0466784,
+    "naver": 4.96,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.96,
+        "review_count": 554,
+        "url": "https://search.naver.com/search.naver?query=%EC%97%90%EC%9D%B4%EB%AF%B8%EB%AF%B8%EB%B2%84%ED%84%B0%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 의정부시 의정부동 213-6",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%97%90%EC%9D%B4%EB%AF%B8%EB%AF%B8%EB%B2%84%ED%84%B0%20%EC%9D%98%EC%A0%95%EB%B6%80%EC%8B%9C",
+      "place_id": "2042328344",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2042328344",
+    "desc": "의정부시의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100020,
+    "name": "킷사커피로스터리",
+    "region": "경기도",
+    "district": "고양시 일산동구",
+    "location_hint": "고양시 일산동구 정발산동",
+    "address": "경기 고양시 일산동구 무궁화로141번길 30 1층",
+    "naver_place_id": "2095510110",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2095510110",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6706368,
+    "lng": 126.7759581,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 231,
+        "url": "https://search.naver.com/search.naver?query=%ED%82%B7%EC%82%AC%EC%BB%A4%ED%94%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 고양시 일산동구 정발산동 1189-4",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%82%B7%EC%82%AC%EC%BB%A4%ED%94%BC%EB%A1%9C%EC%8A%A4%ED%84%B0%EB%A6%AC%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+      "place_id": "2095510110",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2095510110",
+    "desc": "고양시 일산동구의 카페. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100021,
+    "name": "숨포레",
+    "region": "경기도",
+    "district": "광주시",
+    "location_hint": "광주시 능평동",
+    "address": "경기도 광주시 능평동",
+    "naver_place_id": "2087200853",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2087200853",
+        "note": "네이버 통합검색 새로 오픈했어요 영역 노출 확인",
+        "checked_at": "2026-10-02",
+        "verification_method": "2026-10-02 수집목록의 네이버 Place ID"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-02",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": null,
+    "lng": null,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페·빵집",
+    "rating_evidence": [],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": false,
+    "naver_url": "https://map.naver.com/p/entry/place/2087200853",
+    "menu": [],
+    "desc": "광주시의 카페·빵집. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "source_only_current_address_unconfirmed"
+  },
+  {
+    "id": 100022,
+    "name": "카페인포커스",
+    "region": "경기도",
+    "district": "수원시 팔달구",
+    "location_hint": "수원시 팔달구 남수동",
+    "address": "경기 수원시 팔달구 창룡대로80번길 15 1, 2, 3층",
+    "naver_place_id": "2014736192",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2014736192",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.2857178,
+    "lng": 127.0237154,
+    "naver": 4.92,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.92,
+        "review_count": 209,
+        "url": "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98%EC%9D%B8%ED%8F%AC%EC%BB%A4%EC%8A%A4%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 수원시 팔달구 남수동 11-92",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98%EC%9D%B8%ED%8F%AC%EC%BB%A4%EC%8A%A4%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+      "place_id": "2014736192",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2014736192",
+    "desc": "수원시 팔달구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100023,
+    "name": "오브닉커피",
+    "region": "경기도",
+    "district": "안양시 동안구",
+    "location_hint": "안양시 동안구 관양동",
+    "address": "경기 안양시 동안구 부림로 178 1층 101호, 102호, 103호",
+    "naver_place_id": "2088651226",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2088651226",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3990105,
+    "lng": 126.9621587,
+    "naver": 4.97,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.97,
+        "review_count": 118,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EB%B8%8C%EB%8B%89%EC%BB%A4%ED%94%BC%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%8F%99%EC%95%88%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 안양시 동안구 관양동 1121-4",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EB%B8%8C%EB%8B%89%EC%BB%A4%ED%94%BC%20%EC%95%88%EC%96%91%EC%8B%9C%20%EB%8F%99%EC%95%88%EA%B5%AC",
+      "place_id": "2088651226",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2088651226",
+    "desc": "안양시 동안구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100024,
+    "name": "앤드테라스 식사점",
+    "region": "경기도",
+    "district": "고양시 일산동구",
+    "location_hint": "고양시 일산동구 식사동",
+    "address": "경기 고양시 일산동구 위시티1로 6-19 2층",
+    "naver_place_id": "2018957960",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2018957960",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6748031,
+    "lng": 126.808825,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 255,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%A4%EB%93%9C%ED%85%8C%EB%9D%BC%EC%8A%A4%20%EC%8B%9D%EC%82%AC%EC%A0%90%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 고양시 일산동구 식사동 1580-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%A4%EB%93%9C%ED%85%8C%EB%9D%BC%EC%8A%A4%20%EC%8B%9D%EC%82%AC%EC%A0%90%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+      "place_id": "2018957960",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2018957960",
+    "desc": "고양시 일산동구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100025,
+    "name": "The november 라운지 오산대역점",
+    "region": "경기도",
+    "district": "오산시",
+    "location_hint": "오산시 수청동",
+    "address": "경기 오산시 청학로 266-9 1층 102, 103호",
+    "naver_place_id": "2071371677",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2071371677",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.1720165,
+    "lng": 127.0611971,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 96,
+        "url": "https://search.naver.com/search.naver?query=The%20november%20%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EC%98%A4%EC%82%B0%EB%8C%80%EC%97%AD%EC%A0%90%20%EC%98%A4%EC%82%B0%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 오산시 수청동 609-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=The%20november%20%EB%9D%BC%EC%9A%B4%EC%A7%80%20%EC%98%A4%EC%82%B0%EB%8C%80%EC%97%AD%EC%A0%90%20%EC%98%A4%EC%82%B0%EC%8B%9C",
+      "place_id": "2071371677",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2071371677",
+    "desc": "오산시의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100026,
+    "name": "홈스윗홈",
+    "region": "경기도",
+    "district": "수원시 팔달구",
+    "location_hint": "수원시 팔달구 북수동",
+    "address": "경기도 수원시 팔달구 정조로 872 3층",
+    "naver_place_id": "2086826479",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2086826479",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.2857721,
+    "lng": 127.0157685,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 454,
+        "url": "https://search.naver.com/search.naver?query=%ED%99%88%EC%8A%A4%EC%9C%97%ED%99%88%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "북수동 173",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%99%88%EC%8A%A4%EC%9C%97%ED%99%88%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+      "place_id": "2086826479",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "홈스윗홈라떼",
+        "가격 확인"
+      ],
+      [
+        "홈스윗홈 마틸다케이크",
+        "가격 확인"
+      ],
+      [
+        "밤파운드",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2086826479",
+    "desc": "수원시 팔달구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100027,
+    "name": "이지화이트브레드 부천상동점",
+    "region": "경기도",
+    "district": "부천시 원미구",
+    "location_hint": "부천시 원미구 상동",
+    "address": "경기 부천시 원미구 길주로 111 센타프라자 1층 101호",
+    "naver_place_id": "2091247234",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2091247234",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5061498,
+    "lng": 126.7549587,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 500,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EB%B6%80%EC%B2%9C%EC%83%81%EB%8F%99%EC%A0%90%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 부천시 원미구 상동 535-8",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EB%B6%80%EC%B2%9C%EC%83%81%EB%8F%99%EC%A0%90%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+      "place_id": "2091247234",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2091247234",
+    "desc": "부천시 원미구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100028,
+    "name": "오쌤베이커리카페",
+    "region": "경기도",
+    "district": "포천시",
+    "location_hint": "포천시 군내면",
+    "address": "경기 포천시 군내면 용정경제로 142 1층",
+    "naver_place_id": "2019002912",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2019002912",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.8867776,
+    "lng": 127.2060762,
+    "naver": 4.91,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.91,
+        "review_count": 165,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EC%8C%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98%20%ED%8F%AC%EC%B2%9C%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 포천시 군내면 용정리 285-12",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EC%8C%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EC%B9%B4%ED%8E%98%20%ED%8F%AC%EC%B2%9C%EC%8B%9C",
+      "place_id": "2019002912",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2019002912",
+    "desc": "포천시의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100029,
+    "name": "아르티아고",
+    "region": "경기도",
+    "district": "남양주시",
+    "location_hint": "남양주시 별내동",
+    "address": "경기 남양주시 불암로109번길 2 1층 106호",
+    "naver_place_id": "2084098170",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2084098170",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6508976,
+    "lng": 127.111602,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 178,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%A5%B4%ED%8B%B0%EC%95%84%EA%B3%A0%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 남양주시 별내동 1100-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%A5%B4%ED%8B%B0%EC%95%84%EA%B3%A0%20%EB%82%A8%EC%96%91%EC%A3%BC%EC%8B%9C",
+      "place_id": "2084098170",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2084098170",
+    "desc": "남양주시의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100030,
+    "name": "빵실빵실베이커리",
+    "region": "경기도",
+    "district": "광주시",
+    "location_hint": "광주시 태전동",
+    "address": "경기도 광주시 태봉로 145-3 101호",
+    "naver_place_id": "2071676973",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2071676973",
+        "note": "네이버 통합검색 새로 오픈했어요 영역 노출 확인",
+        "checked_at": "2026-10-02",
+        "verification_method": "2026-10-02 수집목록의 네이버 Place ID"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-02",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3809768,
+    "lng": 127.2311506,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "naver_url": "https://map.naver.com/p/entry/place/2071676973",
+    "menu": [],
+    "desc": "광주시의 카페·빵집. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B9%B5%EC%8B%A4%EB%B9%B5%EC%8B%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC",
+      "place_id": "2071676973",
+      "checked_at": "2026-10-03",
+      "verification_method": "네이버 통합검색 공개 매장 Place ID 일치 및 좌표 대조"
+    },
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100031,
+    "name": "이지화이트브레드 광교아브뉴프랑점",
+    "region": "경기도",
+    "district": "수원시 영통구",
+    "location_hint": "수원시 영통구 이의동",
+    "address": "경기 수원시 영통구 센트럴타운로 85 지하1층 Cb21호",
+    "naver_place_id": "2062262911",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2062262911",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.2909632,
+    "lng": 127.0514637,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 299,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EA%B4%91%EA%B5%90%EC%95%84%EB%B8%8C%EB%89%B4%ED%94%84%EB%9E%91%EC%A0%90%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%98%81%ED%86%B5%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 수원시 영통구 이의동 1332",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EA%B4%91%EA%B5%90%EC%95%84%EB%B8%8C%EB%89%B4%ED%94%84%EB%9E%91%EC%A0%90%20%EC%88%98%EC%9B%90%EC%8B%9C%20%EC%98%81%ED%86%B5%EA%B5%AC",
+      "place_id": "2062262911",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2062262911",
+    "desc": "수원시 영통구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100032,
+    "name": "즈엠 베이커리",
+    "region": "경기도",
+    "district": "부천시 원미구",
+    "location_hint": "부천시 원미구 중동",
+    "address": "경기 부천시 원미구 소향로 181 상가동 144호",
+    "naver_place_id": "2063298863",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2063298863",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5020701,
+    "lng": 126.7679276,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 82,
+        "url": "https://search.naver.com/search.naver?query=%EC%A6%88%EC%97%A0%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 부천시 원미구 중동 1300",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%A6%88%EC%97%A0%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%B6%80%EC%B2%9C%EC%8B%9C%20%EC%9B%90%EB%AF%B8%EA%B5%AC",
+      "place_id": "2063298863",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2063298863",
+    "desc": "부천시 원미구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100033,
+    "name": "베이커스그라운드",
+    "region": "경기도",
+    "district": "용인시 처인구",
+    "location_hint": "용인시 처인구 역북동",
+    "address": "경기 용인시 처인구 명지로16번길 9-11 와이비테라스 2층 205호",
+    "naver_place_id": "2053004480",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2053004480",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.2331355,
+    "lng": 127.1869966,
+    "naver": 4.92,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.92,
+        "review_count": 132,
+        "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EC%8A%A4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%B2%98%EC%9D%B8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 용인시 처인구 역북동 746",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EC%8A%A4%EA%B7%B8%EB%9D%BC%EC%9A%B4%EB%93%9C%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%B2%98%EC%9D%B8%EA%B5%AC",
+      "place_id": "2053004480",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2053004480",
+    "desc": "용인시 처인구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100034,
+    "name": "베이커리 문",
+    "region": "경기도",
+    "district": "성남시 수정구",
+    "location_hint": "성남시 수정구 창곡동",
+    "address": "경기도 성남시 수정구 위례광장로 27 1층 110호",
+    "naver_place_id": "2048233747",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2048233747",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4669244,
+    "lng": 127.1401941,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 65,
+        "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%AC%B8%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "창곡동 547-2",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%AC%B8%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EC%88%98%EC%A0%95%EA%B5%AC",
+      "place_id": "2048233747",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "치즈스콘",
+        "가격 확인"
+      ],
+      [
+        "플레인스콘",
+        "가격 확인"
+      ],
+      [
+        "초코스콘",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2048233747",
+    "desc": "성남시 수정구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100035,
+    "name": "소금결",
+    "region": "경기도",
+    "district": "고양시 일산동구",
+    "location_hint": "고양시 일산동구 정발산동",
+    "address": "경기 고양시 일산동구 산두로229번길 39 1층",
+    "naver_place_id": "2079495761",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2079495761",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6744498,
+    "lng": 126.7781404,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 44,
+        "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EA%B8%88%EA%B2%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 고양시 일산동구 정발산동 1131",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EA%B8%88%EA%B2%B0%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EB%8F%99%EA%B5%AC",
+      "place_id": "2079495761",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2079495761",
+    "desc": "고양시 일산동구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100036,
+    "name": "피카랩",
+    "region": "인천광역시",
+    "district": "미추홀구",
+    "location_hint": "미추홀구 용현동",
+    "address": "인천 미추홀구 독배로 311 1301호",
+    "naver_place_id": "2080137097",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2080137097",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4481463,
+    "lng": 126.6491201,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1441,
+        "url": "https://search.naver.com/search.naver?query=%ED%94%BC%EC%B9%B4%EB%9E%A9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 미추홀구 용현동 665-12",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%94%BC%EC%B9%B4%EB%9E%A9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+      "place_id": "2080137097",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2080137097",
+    "desc": "미추홀구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100037,
+    "name": "빵백화점 송도센트럴파크점",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 송도동",
+    "address": "인천 연수구 센트럴로 232 더샵센트럴파크1 A동 1층 122~126호",
+    "naver_place_id": "2012629005",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2012629005",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3960885,
+    "lng": 126.6393183,
+    "naver": 4.86,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.86,
+        "review_count": 1151,
+        "url": "https://search.naver.com/search.naver?query=%EB%B9%B5%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%86%A1%EB%8F%84%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 송도동 23-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B9%B5%EB%B0%B1%ED%99%94%EC%A0%90%20%EC%86%A1%EB%8F%84%EC%84%BC%ED%8A%B8%EB%9F%B4%ED%8C%8C%ED%81%AC%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2012629005",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2012629005",
+    "desc": "연수구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100038,
+    "name": "팥티오 부평점",
+    "region": "인천광역시",
+    "district": "부평구",
+    "location_hint": "부평구 청천동",
+    "address": "인천 부평구 평천로 140 1층",
+    "naver_place_id": "2027841823",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2027841823",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5196138,
+    "lng": 126.7070729,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 109,
+        "url": "https://search.naver.com/search.naver?query=%ED%8C%A5%ED%8B%B0%EC%98%A4%20%EB%B6%80%ED%8F%89%EC%A0%90%20%EB%B6%80%ED%8F%89%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 부평구 청천동 7-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%8C%A5%ED%8B%B0%EC%98%A4%20%EB%B6%80%ED%8F%89%EC%A0%90%20%EB%B6%80%ED%8F%89%EA%B5%AC",
+      "place_id": "2027841823",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2027841823",
+    "desc": "부평구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100039,
+    "name": "송베이",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 송도동",
+    "address": "인천 연수구 아카데미로343번길 63 301동 C201호",
+    "naver_place_id": "2048750706",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2048750706",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3826267,
+    "lng": 126.6148661,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 173,
+        "url": "https://search.naver.com/search.naver?query=%EC%86%A1%EB%B2%A0%EC%9D%B4%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 송도동 396-11",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%86%A1%EB%B2%A0%EC%9D%B4%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2048750706",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2048750706",
+    "desc": "연수구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100040,
+    "name": "소래염전",
+    "region": "인천광역시",
+    "district": "남동구",
+    "location_hint": "남동구 논현동",
+    "address": "인천광역시 남동구 포구로 10 1층 109호,110호",
+    "naver_place_id": "2028559174",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2028559174",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.399685,
+    "lng": 126.7397249,
+    "naver": 4.91,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.91,
+        "review_count": 38,
+        "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EB%9E%98%EC%97%BC%EC%A0%84%20%EB%82%A8%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "논현동 111-183",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EB%9E%98%EC%97%BC%EC%A0%84%20%EB%82%A8%EB%8F%99%EA%B5%AC",
+      "place_id": "2028559174",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "프리미엄 소금빵4개입",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2028559174",
+    "desc": "남동구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100041,
+    "name": "오크레페 인천도화엘리웨이점",
+    "region": "인천광역시",
+    "district": "미추홀구",
+    "location_hint": "미추홀구 도화동",
+    "address": "인천 미추홀구 숙골로88번길 12 110동 1층 1-24호",
+    "naver_place_id": "2030926187",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2030926187",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4690604,
+    "lng": 126.6647556,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 254,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%A4%ED%81%AC%EB%A0%88%ED%8E%98%20%EC%9D%B8%EC%B2%9C%EB%8F%84%ED%99%94%EC%97%98%EB%A6%AC%EC%9B%A8%EC%9D%B4%EC%A0%90%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 미추홀구 도화동 1011",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%A4%ED%81%AC%EB%A0%88%ED%8E%98%20%EC%9D%B8%EC%B2%9C%EB%8F%84%ED%99%94%EC%97%98%EB%A6%AC%EC%9B%A8%EC%9D%B4%EC%A0%90%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+      "place_id": "2030926187",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2030926187",
+    "desc": "미추홀구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100042,
+    "name": "해운대달맞이빵 송도점",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 동춘동",
+    "address": "인천 연수구 아암대로 825-20 지상1-2층",
+    "naver_place_id": "2075009807",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2075009807",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3958643,
+    "lng": 126.6628659,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 20,
+        "url": "https://search.naver.com/search.naver?query=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%8B%AC%EB%A7%9E%EC%9D%B4%EB%B9%B5%20%EC%86%A1%EB%8F%84%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 동춘동 698-8",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%95%B4%EC%9A%B4%EB%8C%80%EB%8B%AC%EB%A7%9E%EC%9D%B4%EB%B9%B5%20%EC%86%A1%EB%8F%84%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2075009807",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2075009807",
+    "desc": "연수구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100043,
+    "name": "카페 코지베어 소금빵 베이커리 송도 학원가점",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 송도동",
+    "address": "인천 연수구 해돋이로 160-19 1층 101, 102호 카페 코지베어",
+    "naver_place_id": "2093683129",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2093683129",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3962493,
+    "lng": 126.6469883,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 276,
+        "url": "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98%20%EC%BD%94%EC%A7%80%EB%B2%A0%EC%96%B4%20%EC%86%8C%EA%B8%88%EB%B9%B5%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%A1%EB%8F%84%20%ED%95%99%EC%9B%90%EA%B0%80%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 송도동 21-26",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%B9%B4%ED%8E%98%20%EC%BD%94%EC%A7%80%EB%B2%A0%EC%96%B4%20%EC%86%8C%EA%B8%88%EB%B9%B5%20%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%A1%EB%8F%84%20%ED%95%99%EC%9B%90%EA%B0%80%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2093683129",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2093683129",
+    "desc": "연수구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100044,
+    "name": "서울단팥빵",
+    "region": "인천광역시",
+    "district": "검단구",
+    "location_hint": "검단구 오류동",
+    "address": "인천광역시 검단구 보듬로 158 1층",
+    "naver_place_id": "2011545467",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2011545467",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5956848,
+    "lng": 126.614029,
+    "naver": 4.92,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.92,
+        "review_count": 239,
+        "url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8B%A8%ED%8C%A5%EB%B9%B5%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "오류동 1656-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%84%9C%EC%9A%B8%EB%8B%A8%ED%8C%A5%EB%B9%B5%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+      "place_id": "2011545467",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [
+      [
+        "단팥빵",
+        "가격 확인"
+      ],
+      [
+        "우유크림 카스테라 단팥빵",
+        "가격 확인"
+      ],
+      [
+        "크림치즈 팥빵",
+        "가격 확인"
+      ]
+    ],
+    "naver_url": "https://map.naver.com/p/entry/place/2011545467",
+    "desc": "검단구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100045,
+    "name": "이지화이트브레드 송도퍼스트파크점",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 송도동",
+    "address": "인천 연수구 컨벤시아대로230번길 42 지상1층 106호",
+    "naver_place_id": "2089629137",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2089629137",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3880856,
+    "lng": 126.6349147,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 544,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EC%86%A1%EB%8F%84%ED%8D%BC%EC%8A%A4%ED%8A%B8%ED%8C%8C%ED%81%AC%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 송도동 98-2",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%EC%A7%80%ED%99%94%EC%9D%B4%ED%8A%B8%EB%B8%8C%EB%A0%88%EB%93%9C%20%EC%86%A1%EB%8F%84%ED%8D%BC%EC%8A%A4%ED%8A%B8%ED%8C%8C%ED%81%AC%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2089629137",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2089629137",
+    "desc": "연수구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100046,
+    "name": "갓구운소금빵 송도본점",
+    "region": "인천광역시",
+    "district": "연수구",
+    "location_hint": "연수구 송도동",
+    "address": "인천 연수구 해돋이로 168-2 1층 102호",
+    "naver_place_id": "2071987568",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2071987568",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3951047,
+    "lng": 126.6454464,
+    "naver": 4.93,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.93,
+        "review_count": 672,
+        "url": "https://search.naver.com/search.naver?query=%EA%B0%93%EA%B5%AC%EC%9A%B4%EC%86%8C%EA%B8%88%EB%B9%B5%20%EC%86%A1%EB%8F%84%EB%B3%B8%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 송도동 21-32",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EA%B0%93%EA%B5%AC%EC%9A%B4%EC%86%8C%EA%B8%88%EB%B9%B5%20%EC%86%A1%EB%8F%84%EB%B3%B8%EC%A0%90%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "2071987568",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2071987568",
+    "desc": "연수구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100047,
+    "name": "라루체제빵소",
+    "region": "인천광역시",
+    "district": "검단구",
+    "location_hint": "검단구 당하동",
+    "address": "인천 검단구 이음1로 136 1층 103호,104호",
+    "naver_place_id": "2012952689",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2012952689",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.582959,
+    "lng": 126.7060722,
+    "naver": 4.83,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.83,
+        "review_count": 167,
+        "url": "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%A3%A8%EC%B2%B4%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 검단구 당하동 1316-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%9D%BC%EB%A3%A8%EC%B2%B4%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+      "place_id": "2012952689",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2012952689",
+    "desc": "검단구의 베이커리. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100048,
+    "name": "행복다락방",
+    "region": "인천광역시",
+    "district": "미추홀구",
+    "location_hint": "미추홀구 용현동",
+    "address": "인천 미추홀구 인하로67번길 24-17 지하1층 B1호",
+    "naver_place_id": "2005011949",
+    "discovery_tags": [
+      "new"
+    ],
+    "sources": [
+      "네이버 새로오픈"
+    ],
+    "source_evidence": [
+      {
+        "source": "네이버 새로오픈",
+        "url": "https://map.naver.com/p/entry/place/2005011949",
+        "note": "새로 오픈했어요 표시 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 Place ID 및 새로오픈 표시 확인"
+      }
+    ],
+    "new_opening_checked_at": "2026-10-03",
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4524863,
+    "lng": 126.6568527,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 94,
+        "url": "https://search.naver.com/search.naver?query=%ED%96%89%EB%B3%B5%EB%8B%A4%EB%9D%BD%EB%B0%A9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 미추홀구 용현동 195-30",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%96%89%EB%B3%B5%EB%8B%A4%EB%9D%BD%EB%B0%A9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+      "place_id": "2005011949",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "new_opening_at_last_check": true,
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2005011949",
+    "desc": "미추홀구의 카페,디저트. 네이버 새로오픈에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "신상",
+      "새로오픈",
+      "신규"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100049,
+    "name": "리치몬드과자점 성산본점",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울 마포구 월드컵북로 86",
+    "naver_place_id": "31583489",
+    "discovery_tags": [
+      "blue",
+      "pilgrimage"
+    ],
+    "sources": [
+      "블루리본",
+      "빵지순례"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/6402",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      },
+      {
+        "source": "빵지순례",
+        "url": "https://korean.visitseoul.net/area/리치몬드-과자점-성산본점/KOP038319",
+        "note": "서울관광재단 대표 빵집 소개",
+        "checked_at": "2026-10-03",
+        "verification_method": "공식 관광기관의 상호·주소 소개 확인"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "menu": [
+      [
+        "밤식빵",
+        "가격 확인"
+      ],
+      [
+        "밤파이",
+        "가격 확인"
+      ]
+    ],
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5613259,
+    "lng": 126.9156754,
+    "naver": 4.58,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.58,
+        "review_count": 8798,
+        "url": "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%B9%98%EB%AA%AC%EB%93%9C%EA%B3%BC%EC%9E%90%EC%A0%90%20%EC%84%B1%EC%82%B0%EB%B3%B8%EC%A0%90%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 마포구 성산동 114-5",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%B9%98%EB%AA%AC%EB%93%9C%EA%B3%BC%EC%9E%90%EC%A0%90%20%EC%84%B1%EC%82%B0%EB%B3%B8%EC%A0%90%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+      "place_id": "31583489",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "naver_url": "https://map.naver.com/p/entry/place/31583489",
+    "desc": "마포구의 베이커리. 블루리본, 빵지순례에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100050,
+    "name": "우스블랑",
+    "region": "서울특별시",
+    "district": "용산구",
+    "address": "서울 용산구 효창원로70길 4 1,2층",
+    "naver_place_id": "1699309891",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/9177",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5414403,
+    "lng": 126.9623908,
+    "naver": 4.51,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.51,
+        "review_count": 3923,
+        "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%8A%A4%EB%B8%94%EB%9E%91%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 용산구 효창동 5-51",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EC%8A%A4%EB%B8%94%EB%9E%91%20%EC%9A%A9%EC%82%B0%EA%B5%AC",
+      "place_id": "1699309891",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1699309891",
+    "desc": "용산구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100051,
+    "name": "베이커리봉교",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울 마포구 성미산로 25 1층",
+    "naver_place_id": "1372746441",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/25848",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5587571,
+    "lng": 126.9110196,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 463,
+        "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EB%B4%89%EA%B5%90%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 마포구 성산동 245-11",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%EB%B4%89%EA%B5%90%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+      "place_id": "1372746441",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1372746441",
+    "desc": "마포구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100052,
+    "name": "우프베이커리",
+    "region": "서울특별시",
+    "district": "송파구",
+    "address": "서울 송파구 백제고분로41길 19-24 1층 101호",
+    "naver_place_id": "1124060870",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/31167",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.507102,
+    "lng": 127.1064894,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 884,
+        "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%ED%94%84%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%A1%ED%8C%8C%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 송파구 송파동 13-15",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%ED%94%84%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%A1%ED%8C%8C%EA%B5%AC",
+      "place_id": "1124060870",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1124060870",
+    "desc": "송파구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100053,
+    "name": "아방베이커리 역삼점",
+    "region": "서울특별시",
+    "district": "강남구",
+    "address": "서울 강남구 테헤란로13길 12 지상1층",
+    "naver_place_id": "1843379702",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/44555",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5004923,
+    "lng": 127.0324983,
+    "naver": 4.83,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.83,
+        "review_count": 867,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%97%AD%EC%82%BC%EC%A0%90%20%EA%B0%95%EB%82%A8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 강남구 역삼동 647",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%97%AD%EC%82%BC%EC%A0%90%20%EA%B0%95%EB%82%A8%EA%B5%AC",
+      "place_id": "1843379702",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1843379702",
+    "desc": "강남구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100054,
+    "name": "오퍼카페",
+    "region": "서울특별시",
+    "district": "마포구",
+    "address": "서울 마포구 홍익로5길 19 오퍼베이커리카페",
+    "naver_place_id": "1703190567",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/53686",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5540363,
+    "lng": 126.9212887,
+    "naver": 4.81,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.81,
+        "review_count": 2226,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%A4%ED%8D%BC%EC%B9%B4%ED%8E%98%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 마포구 서교동 355-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%A4%ED%8D%BC%EC%B9%B4%ED%8E%98%20%EB%A7%88%ED%8F%AC%EA%B5%AC",
+      "place_id": "1703190567",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1703190567",
+    "desc": "마포구의 카페,디저트. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100055,
+    "name": "아방베이커리 을지로DGB점",
+    "region": "서울특별시",
+    "district": "중구",
+    "address": "서울 중구 남대문로 125 1층",
+    "naver_place_id": "1124940756",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/43948",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5684623,
+    "lng": 126.9823991,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1571,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%9D%84%EC%A7%80%EB%A1%9CDGB%EC%A0%90%20%EC%A4%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 중구 다동 85",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%9D%84%EC%A7%80%EB%A1%9CDGB%EC%A0%90%20%EC%A4%91%EA%B5%AC",
+      "place_id": "1124940756",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1124940756",
+    "desc": "중구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100056,
+    "name": "우리와베이커리",
+    "region": "서울특별시",
+    "district": "도봉구",
+    "address": "서울 도봉구 도봉로110길 58 1층",
+    "naver_place_id": "1595673247",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/54105",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6461183,
+    "lng": 127.0369052,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1159,
+        "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EC%99%80%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%8F%84%EB%B4%89%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 도봉구 창동 621-4",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%A6%AC%EC%99%80%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%8F%84%EB%B4%89%EA%B5%AC",
+      "place_id": "1595673247",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1595673247",
+    "desc": "도봉구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100057,
+    "name": "사려깊은빵집",
+    "region": "경기도",
+    "district": "고양시 일산서구",
+    "address": "경기 고양시 일산서구 일산로 569 문촌빌딩 102,103호",
+    "naver_place_id": "1837315732",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/48745",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.678692,
+    "lng": 126.7648784,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 557,
+        "url": "https://search.naver.com/search.naver?query=%EC%82%AC%EB%A0%A4%EA%B9%8A%EC%9D%80%EB%B9%B5%EC%A7%91%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 고양시 일산서구 일산동 1061",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%82%AC%EB%A0%A4%EA%B9%8A%EC%9D%80%EB%B9%B5%EC%A7%91%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EC%9D%BC%EC%82%B0%EC%84%9C%EA%B5%AC",
+      "place_id": "1837315732",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1837315732",
+    "desc": "고양시 일산서구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100058,
+    "name": "몽스베이커리",
+    "region": "경기도",
+    "district": "성남시 분당구",
+    "address": "경기도 성남시 분당구 불곡남로13번길 10-1",
+    "naver_place_id": null,
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/33052",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": null,
+    "lng": null,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페·빵집",
+    "rating_evidence": [],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": false,
+    "naver_url": "https://map.naver.com/p/search/%EB%AA%BD%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC",
+    "menu": [],
+    "desc": "성남시 분당구의 카페·빵집. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "source_only_current_address_unconfirmed"
+  },
+  {
+    "id": 100059,
+    "name": "우브베이커리",
+    "region": "경기도",
+    "district": "군포시",
+    "address": "경기 군포시 산본천로 203 1층",
+    "naver_place_id": "1156212847",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/35696",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3708551,
+    "lng": 126.9399871,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1278,
+        "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%B8%8C%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B5%B0%ED%8F%AC%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 군포시 산본동 91-7",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9A%B0%EB%B8%8C%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B5%B0%ED%8F%AC%EC%8B%9C",
+      "place_id": "1156212847",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1156212847",
+    "desc": "군포시의 카페,디저트. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100060,
+    "name": "빵깨비",
+    "region": "경기도",
+    "district": "고양시 덕양구",
+    "address": "경기 고양시 덕양구 고양대로1315번길 40 1층 빵깨비",
+    "naver_place_id": "1918410137",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/54111",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6578353,
+    "lng": 126.8298051,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1930,
+        "url": "https://search.naver.com/search.naver?query=%EB%B9%B5%EA%B9%A8%EB%B9%84%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 고양시 덕양구 주교동 604-10",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B9%B5%EA%B9%A8%EB%B9%84%20%EA%B3%A0%EC%96%91%EC%8B%9C%20%EB%8D%95%EC%96%91%EA%B5%AC",
+      "place_id": "1918410137",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1918410137",
+    "desc": "고양시 덕양구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100061,
+    "name": "블레도르",
+    "region": "경기도",
+    "district": "성남시 분당구",
+    "address": "경기 성남시 분당구 판교역로2번길 40 1층",
+    "naver_place_id": "33109368",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/24988",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.3864737,
+    "lng": 127.1114219,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 645,
+        "url": "https://search.naver.com/search.naver?query=%EB%B8%94%EB%A0%88%EB%8F%84%EB%A5%B4%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 성남시 분당구 백현동 560",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B8%94%EB%A0%88%EB%8F%84%EB%A5%B4%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC",
+      "place_id": "33109368",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/33109368",
+    "desc": "성남시 분당구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100062,
+    "name": "아방베이커리 판교카카오점",
+    "region": "경기도",
+    "district": "성남시 분당구",
+    "address": "경기 성남시 분당구 판교역로 166 1층 3호",
+    "naver_place_id": "1161789447",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/44360",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.395497,
+    "lng": 127.1103706,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1348,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%ED%8C%90%EA%B5%90%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%A0%90%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 성남시 분당구 백현동 532",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%84%EB%B0%A9%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%ED%8C%90%EA%B5%90%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%A0%90%20%EC%84%B1%EB%82%A8%EC%8B%9C%20%EB%B6%84%EB%8B%B9%EA%B5%AC",
+      "place_id": "1161789447",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1161789447",
+    "desc": "성남시 분당구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100063,
+    "name": "오고르",
+    "region": "경기도",
+    "district": "수원시 팔달구",
+    "address": "경기 수원시 팔달구 화서문로71번길 14 1층",
+    "naver_place_id": "1384498557",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/57083",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.286409,
+    "lng": 127.0157735,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "카페,디저트",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1166,
+        "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EA%B3%A0%EB%A5%B4%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 수원시 팔달구 북수동 82",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%98%A4%EA%B3%A0%EB%A5%B4%20%EC%88%98%EC%9B%90%EC%8B%9C%20%ED%8C%94%EB%8B%AC%EA%B5%AC",
+      "place_id": "1384498557",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1384498557",
+    "desc": "수원시 팔달구의 카페,디저트. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100064,
+    "name": "토모루베이커리",
+    "region": "경기도",
+    "district": "파주시",
+    "address": "경기 파주시 심학산로423번길 24 1층",
+    "naver_place_id": "1732269160",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/49308",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.7194098,
+    "lng": 126.7386315,
+    "naver": 4.52,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.52,
+        "review_count": 1588,
+        "url": "https://search.naver.com/search.naver?query=%ED%86%A0%EB%AA%A8%EB%A3%A8%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%ED%8C%8C%EC%A3%BC%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 파주시 목동동 1112",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%ED%86%A0%EB%AA%A8%EB%A3%A8%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%ED%8C%8C%EC%A3%BC%EC%8B%9C",
+      "place_id": "1732269160",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1732269160",
+    "desc": "파주시의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100065,
+    "name": "이학순베이커리 소하상업지구점",
+    "region": "경기도",
+    "district": "광명시",
+    "address": "경기 광명시 소하로75번길 10 1층 104호",
+    "naver_place_id": "1313071740",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/31606",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4480208,
+    "lng": 126.8849578,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 1419,
+        "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%ED%95%99%EC%88%9C%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%8C%ED%95%98%EC%83%81%EC%97%85%EC%A7%80%EA%B5%AC%EC%A0%90%20%EA%B4%91%EB%AA%85%EC%8B%9C",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "경기 광명시 소하동 1338",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%B4%ED%95%99%EC%88%9C%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EC%86%8C%ED%95%98%EC%83%81%EC%97%85%EC%A7%80%EA%B5%AC%EC%A0%90%20%EA%B4%91%EB%AA%85%EC%8B%9C",
+      "place_id": "1313071740",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1313071740",
+    "desc": "광명시의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100066,
+    "name": "리자매쌀베이커리",
+    "region": "인천광역시",
+    "district": "미추홀구",
+    "address": "인천 미추홀구 문화로 51 풍림아파트 상가 1층 리자매쌀베이커리",
+    "naver_place_id": "1613184616",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/43153",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4437398,
+    "lng": 126.6985834,
+    "naver": 4.88,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.88,
+        "review_count": 1475,
+        "url": "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%9E%90%EB%A7%A4%EC%8C%80%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 미추홀구 관교동 13-8",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%A6%AC%EC%9E%90%EB%A7%A4%EC%8C%80%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+      "place_id": "1613184616",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1613184616",
+    "desc": "미추홀구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100067,
+    "name": "블랑제리쉐종",
+    "region": "인천광역시",
+    "district": "계양구",
+    "address": "인천 계양구 경명대로 1068 102호",
+    "naver_place_id": "1685432295",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/33280",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5432003,
+    "lng": 126.7255455,
+    "naver": 4.56,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.56,
+        "review_count": 1161,
+        "url": "https://search.naver.com/search.naver?query=%EB%B8%94%EB%9E%91%EC%A0%9C%EB%A6%AC%EC%89%90%EC%A2%85%20%EA%B3%84%EC%96%91%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 계양구 계산동 945-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B8%94%EB%9E%91%EC%A0%9C%EB%A6%AC%EC%89%90%EC%A2%85%20%EA%B3%84%EC%96%91%EA%B5%AC",
+      "place_id": "1685432295",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1685432295",
+    "desc": "계양구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100068,
+    "name": "소금고",
+    "region": "인천광역시",
+    "district": "연수구",
+    "address": "인천 연수구 능허대로79번길 30 일반상가동 1층 107호",
+    "naver_place_id": "1397902268",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/51115",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.425173,
+    "lng": 126.6421037,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 196,
+        "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EA%B8%88%EA%B3%A0%20%EC%97%B0%EC%88%98%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 연수구 옥련동 626",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%86%8C%EA%B8%88%EA%B3%A0%20%EC%97%B0%EC%88%98%EA%B5%AC",
+      "place_id": "1397902268",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1397902268",
+    "desc": "연수구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100069,
+    "name": "가온당",
+    "region": "인천광역시",
+    "district": "미추홀구",
+    "address": "인천 미추홀구 인주대로 380 1,2층",
+    "naver_place_id": "2015276527",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/52190",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4511311,
+    "lng": 126.6786222,
+    "naver": 4.83,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.83,
+        "review_count": 3635,
+        "url": "https://search.naver.com/search.naver?query=%EA%B0%80%EC%98%A8%EB%8B%B9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 미추홀구 주안동 1457-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EA%B0%80%EC%98%A8%EB%8B%B9%20%EB%AF%B8%EC%B6%94%ED%99%80%EA%B5%AC",
+      "place_id": "2015276527",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/2015276527",
+    "desc": "미추홀구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100070,
+    "name": "스타문베이커리",
+    "region": "인천광역시",
+    "district": "검단구",
+    "address": "인천 검단구 솔모랭이길 34 1층",
+    "naver_place_id": "1967470409",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/40994",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5916381,
+    "lng": 126.7166995,
+    "naver": 4.83,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.83,
+        "review_count": 442,
+        "url": "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%83%80%EB%AC%B8%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 검단구 원당동 1079-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%8A%A4%ED%83%80%EB%AC%B8%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B2%80%EB%8B%A8%EA%B5%AC",
+      "place_id": "1967470409",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1967470409",
+    "desc": "검단구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100071,
+    "name": "바다앞테라스",
+    "region": "인천광역시",
+    "district": "영종구",
+    "address": "인천 영종구 은하수로 10 더 테라스프라자 5층",
+    "naver_place_id": "1982994083",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/34298",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4920749,
+    "lng": 126.5812572,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 7946,
+        "url": "https://search.naver.com/search.naver?query=%EB%B0%94%EB%8B%A4%EC%95%9E%ED%85%8C%EB%9D%BC%EC%8A%A4%20%EC%98%81%EC%A2%85%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 영종구 중산동 1949-1",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%B0%94%EB%8B%A4%EC%95%9E%ED%85%8C%EB%9D%BC%EC%8A%A4%20%EC%98%81%EC%A2%85%EA%B5%AC",
+      "place_id": "1982994083",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1982994083",
+    "desc": "영종구의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100072,
+    "name": "더라두",
+    "region": "인천광역시",
+    "district": "강화군",
+    "address": "인천 강화군 길상면 해안동로 112-12",
+    "naver_place_id": "1715084069",
+    "discovery_tags": [
+      "blue"
+    ],
+    "sources": [
+      "블루리본"
+    ],
+    "source_evidence": [
+      {
+        "source": "블루리본",
+        "url": "https://www.bluer.co.kr/restaurants/41334",
+        "note": "블루리본 공식 매장 소개 · 리본 수·선정 연도는 별도 확인",
+        "checked_at": "2026-10-03",
+        "verification_method": "블루리본 공식 페이지 검색 색인에서 상호·주소 대조"
+      }
+    ],
+    "ribbon_count": null,
+    "blue_ribbon_year": null,
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6369895,
+    "lng": 126.5296197,
+    "naver": 4.67,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": 4.67,
+        "review_count": 5684,
+        "url": "https://search.naver.com/search.naver?query=%EB%8D%94%EB%9D%BC%EB%91%90%20%EA%B0%95%ED%99%94%EA%B5%B0",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 강화군 길상면 초지리 616-72",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%8D%94%EB%9D%BC%EB%91%90%20%EA%B0%95%ED%99%94%EA%B5%B0",
+      "place_id": "1715084069",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "menu": [],
+    "naver_url": "https://map.naver.com/p/entry/place/1715084069",
+    "desc": "강화군의 베이커리. 블루리본에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트",
+      "블루리본 서베이"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100073,
+    "name": "안스베이커리 구월본점",
+    "region": "인천광역시",
+    "district": "남동구",
+    "address": "인천 남동구 인주대로 664",
+    "naver_place_id": "11851611",
+    "discovery_tags": [
+      "pilgrimage"
+    ],
+    "sources": [
+      "빵지순례"
+    ],
+    "source_evidence": [
+      {
+        "source": "빵지순례",
+        "url": "https://itour.incheon.go.kr/thmtour/rcmdtour/detail.do?cotId=ITA21121017510152486",
+        "note": "인천관광공사 빵지순례 추천",
+        "checked_at": "2026-10-03",
+        "verification_method": "공식 관광기관의 상호·주소 소개 확인"
+      }
+    ],
+    "menu": [
+      [
+        "생롤",
+        "가격 확인"
+      ],
+      [
+        "나가사키 카스텔라",
+        "가격 확인"
+      ]
+    ],
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4493246,
+    "lng": 126.710704,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 9832,
+        "url": "https://search.naver.com/search.naver?query=%EC%95%88%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B5%AC%EC%9B%94%EB%B3%B8%EC%A0%90%20%EB%82%A8%EB%8F%99%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 남동구 구월동 279-3",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EC%95%88%EC%8A%A4%EB%B2%A0%EC%9D%B4%EC%BB%A4%EB%A6%AC%20%EA%B5%AC%EC%9B%94%EB%B3%B8%EC%A0%90%20%EB%82%A8%EB%8F%99%EA%B5%AC",
+      "place_id": "11851611",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "naver_url": "https://map.naver.com/p/entry/place/11851611",
+    "desc": "남동구의 베이커리. 빵지순례에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100074,
+    "name": "도레도레 강화점",
+    "region": "인천광역시",
+    "district": "강화군",
+    "address": "인천 강화군 화도면 해안남로1844번길 19",
+    "naver_place_id": "38371589",
+    "discovery_tags": [
+      "pilgrimage"
+    ],
+    "sources": [
+      "빵지순례"
+    ],
+    "source_evidence": [
+      {
+        "source": "빵지순례",
+        "url": "https://itour.incheon.go.kr/thmtour/rcmdtour/detail.do?cotId=ITA21121017510152486",
+        "note": "인천관광공사 빵지순례 추천",
+        "checked_at": "2026-10-03",
+        "verification_method": "공식 관광기관의 상호·주소 소개 확인"
+      }
+    ],
+    "menu": [
+      [
+        "무지개 케이크",
+        "가격 확인"
+      ]
+    ],
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.6069234,
+    "lng": 126.4248972,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "케이크전문",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 2801,
+        "url": "https://search.naver.com/search.naver?query=%EB%8F%84%EB%A0%88%EB%8F%84%EB%A0%88%20%EA%B0%95%ED%99%94%EC%A0%90%20%EA%B0%95%ED%99%94%EA%B5%B0",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 강화군 화도면 흥왕리 20-10",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%8F%84%EB%A0%88%EB%8F%84%EB%A0%88%20%EA%B0%95%ED%99%94%EC%A0%90%20%EA%B0%95%ED%99%94%EA%B5%B0",
+      "place_id": "38371589",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "naver_url": "https://map.naver.com/p/entry/place/38371589",
+    "desc": "강화군의 케이크전문. 빵지순례에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100075,
+    "name": "마시안제빵소",
+    "region": "인천광역시",
+    "district": "영종구",
+    "address": "인천 영종구 마시란로 155 마시안제빵소",
+    "naver_place_id": "1835362107",
+    "discovery_tags": [
+      "pilgrimage"
+    ],
+    "sources": [
+      "빵지순례"
+    ],
+    "source_evidence": [
+      {
+        "source": "빵지순례",
+        "url": "https://itour.incheon.go.kr/thmtour/rcmdtour/detail.do?cotId=ITA21121017510152486",
+        "note": "인천관광공사 빵지순례 추천",
+        "checked_at": "2026-10-03",
+        "verification_method": "공식 관광기관의 상호·주소 소개 확인"
+      }
+    ],
+    "menu": [
+      [
+        "육쪽마시안빵",
+        "가격 확인"
+      ]
+    ],
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.4351481,
+    "lng": 126.414274,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 10602,
+        "url": "https://search.naver.com/search.naver?query=%EB%A7%88%EC%8B%9C%EC%95%88%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EC%98%81%EC%A2%85%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "인천 영종구 덕교동 615-12",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%A7%88%EC%8B%9C%EC%95%88%EC%A0%9C%EB%B9%B5%EC%86%8C%20%EC%98%81%EC%A2%85%EA%B5%AC",
+      "place_id": "1835362107",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "naver_url": "https://map.naver.com/p/entry/place/1835362107",
+    "desc": "영종구의 베이커리. 빵지순례에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트"
+    ],
+    "address_status": "naver_place_verified"
+  },
+  {
+    "id": 100076,
+    "name": "나폴레옹과자점 성북본점",
+    "region": "서울특별시",
+    "district": "성북구",
+    "address": "서울 성북구 성북로 7 나폴레옹과자점",
+    "naver_place_id": "11627707",
+    "discovery_tags": [
+      "pilgrimage"
+    ],
+    "sources": [
+      "빵지순례"
+    ],
+    "source_evidence": [
+      {
+        "source": "빵지순례",
+        "url": "https://korean.visitseoul.net/restaurants/나폴레옹/KOP006613",
+        "note": "서울관광재단 대표 빵집 소개",
+        "checked_at": "2026-10-03",
+        "verification_method": "공식 관광기관의 상호·주소 소개 확인"
+      }
+    ],
+    "menu": [],
+    "kind": "cafe_bakery",
+    "cats": [
+      "카페·빵집"
+    ],
+    "lat": 37.5888994,
+    "lng": 127.0051951,
+    "naver": null,
+    "kakao": null,
+    "raw_category": "베이커리",
+    "rating_evidence": [
+      {
+        "platform": "naver",
+        "rating": null,
+        "review_count": 14232,
+        "url": "https://search.naver.com/search.naver?query=%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9%EA%B3%BC%EC%9E%90%EC%A0%90%20%EC%84%B1%EB%B6%81%EB%B3%B8%EC%A0%90%20%EC%84%B1%EB%B6%81%EA%B5%AC",
+        "checked_at": "2026-10-03",
+        "verification_method": "네이버 통합검색 공개 표시 평점; 미표시는 null"
+      }
+    ],
+    "source_videos": [],
+    "last_checked": "2026-10-03",
+    "coordinates_verified": true,
+    "address_jibun": "서울 성북구 성북동1가 35-5",
+    "coordinate_evidence": {
+      "url": "https://search.naver.com/search.naver?query=%EB%82%98%ED%8F%B4%EB%A0%88%EC%98%B9%EA%B3%BC%EC%9E%90%EC%A0%90%20%EC%84%B1%EB%B6%81%EB%B3%B8%EC%A0%90%20%EC%84%B1%EB%B6%81%EA%B5%AC",
+      "place_id": "11627707",
+      "verification_method": "네이버 통합검색 공개 PlaceListBusinessesItem의 Place ID 또는 상호·정확한 도로명 번지 대조",
+      "checked_at": "2026-10-03"
+    },
+    "naver_url": "https://map.naver.com/p/entry/place/11627707",
+    "desc": "성북구의 베이커리. 빵지순례에서 소개된 지점입니다.",
+    "search_keywords": [
+      "카페",
+      "빵집",
+      "베이커리",
+      "디저트"
+    ],
+    "address_status": "naver_place_verified"
+  }
+]

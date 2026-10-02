@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="theme-color" content="#ffffff">
-  <meta name="description" content="성시경 먹을텐데·또간집·백종원·수요미식회 등 방송이 인증하고 네이버·카카오 평점 4.0 이상인 수도권 맛집 지도">
+  <meta name="description" content="수도권 방송 맛집과 네이버 새로오픈·블루리본·빵지순례 카페·빵집을 지도에서 찾고 저장하세요.">
   <title>인증맛집 지도</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <style>
@@ -53,6 +53,13 @@
     .logo{width:28px;height:28px;border-radius:9px;background:var(--accent);color:#fff;display:grid;place-items:center;font-size:15px}
     .brandSub{font-size:12px;color:var(--muted);font-weight:600}
     .brandSub b{color:var(--text-2);font-weight:700}
+    .kindBar{display:flex;gap:6px;padding-top:10px;grid-column:1 / -1}
+    .kindBar button{padding:9px 14px;border-radius:10px;font-size:14px;font-weight:750;color:var(--muted);background:var(--surface-2)}
+    .kindBar button.on{background:var(--accent-soft);color:var(--accent-strong)}
+    .kindBar .n{margin-left:5px;font-size:11px;font-weight:600}
+    .discoveryNote{font-size:12px;line-height:1.6;color:var(--muted);padding:10px 16px;border-bottom:1px solid var(--line);background:var(--surface-2)}
+    .mapNote{position:absolute;top:12px;left:14px;right:14px;z-index:10;background:#fff;padding:9px 12px;border-radius:12px;box-shadow:var(--shadow-sm);font-size:12px;color:var(--text-2);display:none}
+    .mapNote button{font-weight:700;color:var(--accent-strong);margin-left:6px}
 
     .searchRow{display:flex;gap:8px;position:relative}
     .searchBox{position:relative;flex:1;min-width:0}
@@ -337,14 +344,15 @@
     <div class="searchRow">
       <div class="searchBox" id="searchBox">
         <svg class="ic" viewBox="0 0 24 24"><use href="#i-search"/></svg>
-        <label for="q" class="sr">맛집 검색</label>
+        <label for="q" class="sr">가게·메뉴·지역·출처 검색</label>
         <input id="q" class="search" type="search" autocomplete="off" enterkeyhint="search" placeholder="가게, 메뉴, 지역 검색" aria-controls="suggest" aria-expanded="false">
         <button class="clearQ" id="clearQ" aria-label="검색어 지우기"><svg class="ic" viewBox="0 0 24 24"><use href="#i-x"/></svg></button>
       </div>
       <button id="filterBtn" class="filterBtn" aria-label="필터"><svg class="ic" viewBox="0 0 24 24"><use href="#i-sliders"/></svg><span id="filterBadge" class="badge">0</span></button>
       <div id="suggest" class="suggest" role="listbox" aria-label="검색 제안"></div>
     </div>
-    <div class="catBar" id="catBar" role="toolbar" aria-label="음식 종류"></div>
+    <div class="kindBar" id="kindBar" role="group" aria-label="탐색 종류"><button class="on" data-kind="food" aria-pressed="true">맛집<span class="n" id="foodN"></span></button><button data-kind="cafe_bakery" aria-pressed="false">카페·빵집<span class="n" id="cafeN"></span></button></div>
+    <div class="catBar" id="catBar" role="toolbar" aria-label="빠른 필터"></div>
   </header>
 
   <main class="main" id="main">
@@ -358,9 +366,10 @@
           <button data-sort="dist" role="radio">거리순</button>
         </div>
       </div>
+      <div id="discoveryNote" class="discoveryNote" hidden></div>
       <div id="cards" class="cards"></div>
       <details id="cand" class="cand"></details>
-      <div class="listFoot">방송·유튜브에 소개된 실제 지점 중 네이버 또는 카카오 평점이 4.0 이상인 곳만 담았어요. 평점은 공개 집계 자료 기준이며 실시간 값이 아닐 수 있어요.</div>
+      <div class="listFoot" id="listFoot">방송·유튜브에 소개된 실제 지점 중 네이버 또는 카카오 평점이 4.0 이상인 곳만 담았어요. 평점은 공개 집계 자료 기준이며 실시간 값이 아닐 수 있어요.</div>
     </section>
 
     <section id="savedPane" class="pane listPane savedPane" aria-label="저장한 맛집">
@@ -371,6 +380,7 @@
 
     <section id="mapPane" class="pane mapPane show" aria-label="지도">
       <div id="map"></div>
+      <div id="mapNote" class="mapNote"></div>
       <button id="listFab" class="fab listFab"><svg class="ic" viewBox="0 0 24 24"><use href="#i-list"/></svg><span>이 지역 <b id="inView">0</b>곳 목록보기</span></button>
       <button id="locBtn" class="fab locBtn" aria-label="내 위치로 이동"><svg class="ic" viewBox="0 0 24 24"><use href="#i-locate"/></svg></button>
       <div id="peek" class="peekCard" role="button" tabindex="0" aria-label="맛집 상세 열기"></div>
@@ -397,8 +407,8 @@
   <div class="fHead"><h2 id="fTitle">필터</h2><button class="iconBtn" id="filterClose" aria-label="닫기"><svg class="ic" viewBox="0 0 24 24"><use href="#i-x"/></svg></button></div>
   <div class="fBody">
     <section class="fSec">
-      <div class="fT">인증 콘텐츠</div>
-      <div class="fSub">하나라도 해당하면 보여줘요</div>
+      <div class="fT" id="fSourcesTitle">인증 콘텐츠</div>
+      <div class="fSub" id="fSourcesSub">하나라도 해당하면 보여줘요</div>
       <div id="fSources" class="opts"></div>
     </section>
     <section class="fSec">
@@ -408,7 +418,7 @@
     </section>
     <section class="fSec">
       <div class="fT">평점</div>
-      <div class="fSub">네이버·카카오 중 높은 점수 기준</div>
+      <div class="fSub" id="fRatingSub">네이버·카카오 중 높은 점수 기준</div>
       <div id="fRating" class="opts"></div>
     </section>
     <section class="fSec">
@@ -463,13 +473,35 @@
   var POPULAR_AREAS = ["중구","강남구","마포구","종로구","영등포구","용산구","인천","수원시"];
   var CLUSTER_UNTIL_ZOOM = 13, LABEL_FROM_ZOOM = 15;
 
-  var R = [], BY_ID = {}, CANDIDATES = [];
+  var CAFE_SOURCES = ["네이버 새로오픈","블루리본","빵지순례"];
+  var DISCOVERY = {"네이버 새로오픈":"new", "블루리본":"blue", "빵지순례":"pilgrimage"};
+  var SOURCE_LABEL = {"네이버 새로오픈":"새로오픈"};
+  SOURCE_COLOR["네이버 새로오픈"] = "#129452"; SOURCE_COLOR["블루리본"] = "#3478c6"; SOURCE_COLOR["빵지순례"] = "#b57635";
+  SOURCE_SHORT["네이버 새로오픈"] = "N"; SOURCE_SHORT["블루리본"] = "B"; SOURCE_SHORT["빵지순례"] = "빵";
+  var R = [], BY_ID = {}, CANDIDATES = [], kind = "food", cafeLoadError = false;
+  var modeFilters = {food:null, cafe_bakery:null};
+  function isCafe(r){ return r.kind === "cafe_bakery"; }
+  function inKind(r){ return isCafe(r) === (kind === "cafe_bakery"); }
+  function scoped(){ return R.filter(inKind); }
+  function hasCoords(r){ return isNum(r.lat) && isNum(r.lng) && r.lat >= 33 && r.lat <= 39 && r.lng >= 124 && r.lng <= 132; }
+  function sourceLabel(s){ return SOURCE_LABEL[s] || s; }
+  function setKind(next){
+    if(next === kind) return;
+    modeFilters[kind] = {filter:cloneFilter(applied), cat:cat, sort:sortBy};
+    kind = next;
+    var st = modeFilters[kind]; applied = st ? cloneFilter(st.filter) : emptyFilter(); cat = st ? st.cat : "all"; sortBy = st ? st.sort : "rec";
+    draft = cloneFilter(applied); boundsOnly = false; clearSelection(); hideSuggest();
+    $("listPane").scrollTop = 0; $("savedPane").scrollTop = 0;
+    renderAll({fit:true});
+    if(view !== "saved" && kind === "cafe_bakery" && !scoped().some(hasCoords)) setView("list");
+  }
   var map = null, mapMarkers = [], meMarker = null, me = null;
   var view = "map", sortBy = "rec", selectedId = null, detailId = null, boundsOnly = false;
   var applied = emptyFilter(), draft = emptyFilter(), cat = "all";
   var saved = loadJSON("matzip.saved", []), recent = loadJSON("matzip.recent", []);
   var isDesktop = window.matchMedia("(min-width:900px)");
   var $ = function(id){ return document.getElementById(id); };
+  $("kindBar").addEventListener("click", function(e){ var b = e.target.closest("[data-kind]"); if(b) setKind(b.dataset.kind); });
 
   /* ---------- utils ---------- */
   function emptyFilter(){ return {sources:[], regions:[], minRating:0, multi:false}; }
@@ -490,6 +522,7 @@
     [/중식|중국/,"🥢"],[/빈대떡|파전|육전|전·|>전$|^전$/,"🥞"],[/떡볶이|분식|김밥/,"🍢"],[/카페|디저트|베이커리|빵|마카롱|케이크/,"🧁"],[/돈가스|돈까스/,"🍱"],[/피자|파스타|이탈리/,"🍝"],
     [/햄버거|버거|양식|스테이크/,"🍔"],[/백반|한정식|가정식|비빔밥|보리밥|청국장|두부/,"🍚"]];
   function emoji(r){
+    if(isCafe(r)) return /베이커리|제과|제빵/.test(r.raw_category || "") ? "🥐" : "☕";
     var texts = [String(r.raw_category || "").split(">").pop(), (r.menu || []).map(function(m){ return m[0]; }).join(" ")];
     for(var t = 0; t < texts.length; t++){
       for(var i = 0; i < SUB_EMOJI.length; i++){ if(SUB_EMOJI[i][0].test(texts[t])) return SUB_EMOJI[i][1]; }
@@ -503,44 +536,49 @@
   function totalReviews(r){ return (reviews(r,"naver") || 0) + (reviews(r,"kakao") || 0); }
   function fmtN(n){ return n >= 10000 ? (n/10000).toFixed(1).replace(/\.0$/,"") + "만" : n.toLocaleString("ko-KR"); }
   function distKm(r){
-    if(!me) return null;
+    if(!me || !hasCoords(r)) return null;
     var toRad = Math.PI/180, dLat = (r.lat-me.lat)*toRad, dLng = (r.lng-me.lng)*toRad;
     var a = Math.sin(dLat/2)*Math.sin(dLat/2) + Math.cos(me.lat*toRad)*Math.cos(r.lat*toRad)*Math.sin(dLng/2)*Math.sin(dLng/2);
     return 6371*2*Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
   }
   function fmtDist(km){ return km == null ? "" : km < 1 ? Math.max(10, Math.round(km*100)*10) + "m" : (km < 10 ? km.toFixed(1) : Math.round(km)) + "km"; }
-  function score(r){ return (r.sources.length - 1) * 0.35 + best(r) + Math.min(0.25, Math.log10(1 + totalReviews(r)) * 0.06); }
+  function score(r){
+    if(isCafe(r)) return r.sources.length * 2 + (r.discovery_tags.indexOf("new") >= 0 ? 0.5 : 0) + Math.min(1, Math.log10(1 + totalReviews(r)) * 0.2);
+    return (r.sources.length - 1) * 0.35 + best(r) + Math.min(0.25, Math.log10(1 + totalReviews(r)) * 0.06);
+  }
   function isSaved(id){ return saved.indexOf(id) >= 0; }
   function hasMap(){ return !!(map && window.naver && naver.maps); }
   var toastT;
   function toast(msg){ var t = $("toast"); t.textContent = msg; t.classList.add("show"); clearTimeout(toastT); toastT = setTimeout(function(){ t.classList.remove("show"); }, 2200); }
 
   /* ---------- filtering ---------- */
+  function normText(t){ return String(t || "").toLowerCase().replace(/[\s·ㆍ,()]/g, ""); }
   function term(){ return $("q").value.trim().toLowerCase(); }
   function matchText(r, t){
     if(!t) return true;
     var hay = [r.name, r.region, REGION_SHORT[r.region], r.district, r.address, r.address_jibun, r.raw_category, (r.cats || []).join(" "), (r.sources || []).join(" ")]
-      .concat((r.menu || []).map(function(m){ return m[0]; })).join(" ").toLowerCase();
-    return t.split(/\s+/).every(function(w){ return hay.indexOf(w) >= 0; });
+      .concat(r.search_keywords || []).concat((r.menu || []).map(function(m){ return m[0]; })).join(" ").toLowerCase();
+    return t.split(/\s+/).every(function(w){ return normText(hay).indexOf(normText(w)) >= 0; });
   }
   function matches(r, f, opt){
     opt = opt || {};
+    if(!inKind(r)) return false;
     if(!opt.ignoreCat && cat !== "all" && (r.cats || []).indexOf(cat) < 0) return false;
     if(f.sources.length && !f.sources.some(function(s){ return r.sources.indexOf(s) >= 0; })) return false;
     if(f.regions.length && f.regions.indexOf(r.region) < 0) return false;
     if(f.minRating && best(r) < f.minRating) return false;
     if(f.multi && !isMulti(r)) return false;
     if(!matchText(r, term())) return false;
-    if(opt.bounds && boundsOnly && hasMap() && !map.getBounds().hasLatLng(new naver.maps.LatLng(r.lat, r.lng))) return false;
+    if(opt.bounds && boundsOnly && hasMap() && (!hasCoords(r) || !map.getBounds().hasLatLng(new naver.maps.LatLng(r.lat, r.lng)))) return false;
     return true;
   }
   function results(opt){ return R.filter(function(r){ return matches(r, applied, opt); }); }
   function sorted(rows){
     var by = sortBy === "dist" && !me ? "rec" : sortBy;
     return rows.slice().sort(function(a,b){
-      if(by === "dist") return distKm(a) - distKm(b);
+      if(by === "dist") return (distKm(a) == null ? Infinity : distKm(a)) - (distKm(b) == null ? Infinity : distKm(b)) || a.name.localeCompare(b.name, "ko");
       if(by === "rating") return best(b) - best(a) || totalReviews(b) - totalReviews(a);
-      return score(b) - score(a);
+      return score(b) - score(a) || a.name.localeCompare(b.name, "ko");
     });
   }
   function activeCount(){ return applied.sources.length + applied.regions.length + (applied.minRating ? 1 : 0) + (applied.multi ? 1 : 0); }
@@ -549,13 +587,19 @@
   function renderCatBar(){
     var base = R.filter(function(r){ return matches(r, applied, {ignoreCat:true}); });
     var counts = {}; base.forEach(function(r){ (r.cats || []).forEach(function(c){ counts[c] = (counts[c] || 0) + 1; }); });
-    var html = '<button class="cat' + (cat === "all" ? " on" : "") + '" data-cat="all">전체 <span class="n">' + base.length + '</span></button>';
-    CATEGORIES.forEach(function(c){
+    var html = '<button class="cat' + (cat === "all" && (kind !== "cafe_bakery" || !applied.sources.length) ? " on" : "") + '" data-cat="all">전체 <span class="n">' + base.length + '</span></button>';
+    (kind === "cafe_bakery" ? [] : CATEGORIES).forEach(function(c){
       if(!counts[c] && cat !== c) return;
       html += '<button class="cat' + (cat === c ? " on" : "") + '" data-cat="' + esc(c) + '">' + CAT_EMOJI[c] + ' ' + esc(c) + ' <span class="n">' + (counts[c] || 0) + '</span></button>';
     });
+    if(kind === "cafe_bakery"){
+      CAFE_SOURCES.forEach(function(s){
+        var n = scoped().filter(function(r){ return matchText(r, term()) && (!applied.regions.length || applied.regions.indexOf(r.region) >= 0) && r.sources.indexOf(s) >= 0; }).length;
+        html += '<button class="cat' + (applied.sources.indexOf(s) >= 0 ? ' on' : '') + '" data-discovery="' + esc(s) + '" aria-pressed="' + (applied.sources.indexOf(s) >= 0) + '">' + esc(sourceLabel(s)) + ' <span class="n">' + n + '</span></button>';
+      });
+    }
     var chips = [];
-    applied.sources.forEach(function(s){ chips.push(["source", s, s]); });
+    if(kind === "food") applied.sources.forEach(function(s){ chips.push(["source", s, sourceLabel(s)]); });
     applied.regions.forEach(function(s){ chips.push(["region", s, REGION_SHORT[s]]); });
     if(applied.minRating) chips.push(["rating", "", "★ " + applied.minRating + "+"]);
     if(applied.multi) chips.push(["multi", "", "복수 인증"]);
@@ -572,8 +616,14 @@
   }
   $("catBar").addEventListener("click", function(e){
     var b = e.target.closest("button"); if(!b) return;
+    if(b.dataset.discovery){
+      var source = b.dataset.discovery, idx = applied.sources.indexOf(source);
+      if(idx >= 0) applied.sources.splice(idx,1); else applied.sources.push(source);
+      boundsOnly = false; renderAll({fit:true}); return;
+    }
     if(b.dataset.cat){
       cat = b.dataset.cat;
+      if(kind === "cafe_bakery") applied.sources = [];
       renderAll({fit:true});
       b = $("catBar").querySelector('[data-cat="' + (window.CSS && CSS.escape ? CSS.escape(cat) : cat) + '"]');
       if(b) b.scrollIntoView({inline:"nearest", block:"nearest"});
@@ -591,11 +641,11 @@
   /* ---------- list ---------- */
   function badges(r){
     return '<div class="badges">' + r.sources.map(function(s){
-      return '<span class="sb" style="--c:' + (SOURCE_COLOR[s] || "#555") + '">' + esc(s) + '</span>';
+      return '<span class="sb" style="--c:' + (SOURCE_COLOR[s] || "#555") + '">' + esc(sourceLabel(s)) + '</span>';
     }).join("") + '</div>';
   }
   function metaLine(r, withArea){
-    var parts = ['<span class="star">' + ic("star","fill") + best(r).toFixed(1) + '<small>' + bestPf(r) + '</small></span>', '<span>' + esc(subCat(r)) + '</span>'];
+    var parts = [best(r) ? '<span class="star">' + ic("star","fill") + best(r).toFixed(1) + '<small>' + bestPf(r) + '</small></span>' : '<span>평점 미확인</span>', '<span>' + esc(subCat(r)) + '</span>'];
     if(withArea !== false) parts.push('<span>' + esc(area(r)) + '</span>');
     var d = distKm(r); if(d != null) parts.push('<span class="dist">' + fmtDist(d) + '</span>');
     return '<div class="meta">' + parts.join("") + '</div>';
@@ -607,16 +657,19 @@
       '<div class="cardBody"><div class="cardTop"><h3 class="cardName">' + esc(r.name) + '</h3>' +
       '<button class="saveBtn' + (isSaved(r.id) ? " on" : "") + '" data-save="' + r.id + '" aria-pressed="' + isSaved(r.id) + '" aria-label="' + esc(r.name) + ' 저장">' + ic("heart") + '</button></div>' +
       metaLine(r) + badges(r) +
-      (menus.length ? '<div class="menuLine"><em>대표</em>' + esc(menus.join(" · ")) + '</div>' : '') +
+      (menus.length ? '<div class="menuLine"><em>메뉴</em>' + esc(menus.join(" · ")) + '</div>' : '') +
+      (isCafe(r) && !hasCoords(r) ? '<div class="menuLine">위치는 네이버지도에서 확인할 수 있어요</div>' : '') +
       '</div></div>';
   }
   function emptyHtml(){
-    return '<div class="empty"><div class="big">🍽️</div><b>조건에 맞는 맛집이 없어요</b>검색어나 필터를 바꿔 보세요.' +
+    return '<div class="empty"><div class="big">' + (kind === "cafe_bakery" ? '🥐' : '🍽️') + '</div><b>조건에 맞는 ' + (kind === "cafe_bakery" ? '카페·빵집' : '맛집') + '이 없어요</b>검색어나 필터를 바꿔 보세요.' +
       '<br><button data-reset="1">조건 초기화</button></div>';
   }
   function renderList(){
     var rows = sorted(results({bounds:true}));
-    var label = term() ? "‘" + esc($("q").value.trim()) + "’ 결과" : (boundsOnly ? "지도 영역 맛집" : (cat === "all" ? "인증 맛집" : esc(cat) + " 맛집"));
+    $("discoveryNote").hidden = kind !== "cafe_bakery";
+    $("discoveryNote").textContent = cafeLoadError ? "카페·빵집 데이터를 불러오지 못했어요. 새로고침해 주세요." : "서울·경기·인천의 카페와 빵집을 함께 찾아보세요. 새로오픈, 블루리본, 빵지순례 중 하나라도 해당하면 보여줘요.";
+    var label = term() ? "‘" + esc($("q").value.trim()) + "’ 결과" : (boundsOnly ? "지도 영역 맛집" : (kind === "cafe_bakery" ? "카페·빵집" : (cat === "all" ? "인증 맛집" : esc(cat) + " 맛집")));
     $("listTitle").innerHTML = label + " <span>" + rows.length + "</span>곳";
     $("cards").innerHTML = rows.length ? rows.map(cardHtml).join("") : emptyHtml();
     Array.prototype.forEach.call($("sortSeg").children, function(b){
@@ -627,13 +680,13 @@
     renderCandidates();
   }
   function renderSaved(){
-    var rows = saved.map(function(id){ return BY_ID[id]; }).filter(Boolean);
-    $("savedTitle").innerHTML = "저장한 맛집 <span>" + rows.length + "</span>곳";
+    var rows = saved.map(function(id){ return BY_ID[id]; }).filter(function(r){ return r && inKind(r); });
+    $("savedTitle").innerHTML = (kind === "cafe_bakery" ? "저장한 카페·빵집" : "저장한 맛집") + " <span>" + rows.length + "</span>곳";
     $("savedCards").innerHTML = rows.length ? rows.map(cardHtml).join("") :
-      '<div class="empty"><div class="big">🤍</div><b>아직 저장한 맛집이 없어요</b>마음에 드는 맛집의 하트를 눌러<br>나만의 리스트를 만들어 보세요.</div>';
+      '<div class="empty"><div class="big">🤍</div><b>아직 저장한 ' + (kind === "cafe_bakery" ? '카페·빵집' : '맛집') + '이 없어요</b>마음에 드는 가게의 하트를 눌러<br>나만의 리스트를 만들어 보세요.</div>';
     Array.prototype.forEach.call(document.querySelectorAll(".savedN"), function(el){
-      el.textContent = saved.length || "";
-      el.classList.toggle("show", saved.length > 0);
+      el.textContent = rows.length || "";
+      el.classList.toggle("show", rows.length > 0);
     });
   }
   function renderCandidates(){
@@ -643,7 +696,7 @@
       return [x.name, x.district, REGION_SHORT[x.region], (x.menus || []).join(" "), (x.sources || []).join(" ")].join(" ").toLowerCase().indexOf(t) >= 0;
     });
     var el = $("cand");
-    el.style.display = rows.length && !boundsOnly ? "" : "none";
+    el.style.display = kind === "food" && rows.length && !boundsOnly ? "" : "none";
     var wasOpen = el.open;
     el.innerHTML = '<summary><div>검증 대기 중인 후보 ' + rows.length + '곳<small>방송 소개는 확인됐지만 평점·지점 확인이 남은 곳이에요</small></div>' + ic("chev") + '</summary>' +
       rows.map(function(x){
@@ -680,7 +733,7 @@
   function toggleSave(id){
     var r = BY_ID[id]; if(!r) return;
     if(isSaved(id)){ saved = saved.filter(function(x){ return x !== id; }); toast("저장을 취소했어요"); }
-    else{ saved.unshift(id); toast("저장한 맛집에 담았어요"); }
+    else{ saved.unshift(id); toast(isCafe(r) ? "저장한 카페·빵집에 담았어요" : "저장한 맛집에 담았어요"); }
     saveJSON("matzip.saved", saved);
     Array.prototype.forEach.call(document.querySelectorAll('[data-save="' + id + '"]'), function(b){
       b.classList.toggle("on", isSaved(id)); b.setAttribute("aria-pressed", isSaved(id));
@@ -715,7 +768,10 @@
     if(!hasMap()) return;
     mapMarkers.forEach(function(m){ m.setMap(null); });
     mapMarkers = [];
-    var rows = results(), zoom = map.getZoom(), bounds = map.getBounds();
+    var allRows = results(), rows = allRows.filter(hasCoords), zoom = map.getZoom(), bounds = map.getBounds();
+    var missing = allRows.length - rows.length;
+    $("mapNote").style.display = missing ? "block" : "none";
+    $("mapNote").innerHTML = missing ? '목록에 ' + missing + '곳이 더 있어요. 위치 확인은 네이버지도를 이용해 주세요. <button data-list="1">목록보기</button>' : '';
     var inView = rows.filter(function(r){ return bounds.hasLatLng(new naver.maps.LatLng(r.lat, r.lng)); }).length;
     $("inView").textContent = inView;
     var clusters = clusterize(rows);
@@ -754,6 +810,7 @@
   var pendingFit = null;
   function mapVisible(){ return $("mapPane").offsetWidth > 0; }
   function fitTo(rows){
+    rows = rows.filter(hasCoords);
     if(!hasMap() || !rows.length) return;
     if(!mapVisible()){ pendingFit = rows; return; }
     pendingFit = null;
@@ -767,11 +824,11 @@
     opt = opt || {};
     var r = BY_ID[id]; if(!r) return;
     selectedId = id;
-    if(hasMap() && opt.pan){
+    if(hasCoords(r) && hasMap() && opt.pan){
       if(opt.zoom && map.getZoom() < opt.zoom) map.morph(new naver.maps.LatLng(r.lat, r.lng), opt.zoom);
       else map.panTo(new naver.maps.LatLng(r.lat, r.lng));
     }
-    else if(hasMap() && mapVisible()){
+    else if(hasCoords(r) && hasMap() && mapVisible()){
       var h = $("map").clientHeight, w = $("map").clientWidth, proj = map.getProjection();
       var p = proj.fromCoordToOffset(new naver.maps.LatLng(r.lat, r.lng)), c = proj.fromCoordToOffset(map.getCenter());
       var y = h/2 + (p.y - c.y), x = w/2 + (p.x - c.x);
@@ -867,10 +924,11 @@
     return r.sources.map(function(s){
       var ev = (r.source_evidence || []).filter(function(e){ return e.source === s; });
       var vids = (r.source_videos || []).filter(function(v){ return v.channel === s && safeUrl(v.url); });
-      var note = ev.map(function(e){ return e.broadcast_note; }).filter(Boolean)[0];
+      var note = ev.map(function(e){ return e.note || e.broadcast_note; }).filter(Boolean)[0];
       var video = vids[0] ? safeUrl(vids[0].url) : (ev[0] && safeUrl(ev[0].video_url));
       var evUrl = ev[0] && safeUrl(ev[0].url);
       var sub = note ? note.replace(/\s*맛집$/,"") : (video ? "유튜브 소개 영상" : "방송 소개 지점");
+      if(isCafe(r) && ev[0] && ev[0].checked_at) sub += " · 확인 " + ev[0].checked_at;
       return '<div class="src" style="--c:' + (SOURCE_COLOR[s] || "#555") + '"><div class="srcMark" aria-hidden="true">' + (SOURCE_SHORT[s] || "") + '</div>' +
         '<div class="srcBody"><b>' + esc(s) + '</b><small>' + esc(sub) + '</small></div><div class="srcLinks">' +
         (video ? '<a class="pill yt" href="' + esc(video) + '" target="_blank" rel="noopener noreferrer">' + ic("play","fill") + '영상</a>' : '') +
@@ -883,7 +941,7 @@
     var menus = (r.menu || []).map(function(m){ return m[0]; }).filter(Boolean);
     var d = distKm(r);
     var naverUrl = safeUrl(r.naver_url) || "https://map.naver.com/p/search/" + encodeURIComponent(r.name + " " + r.district);
-    var routeUrl = "https://map.kakao.com/link/to/" + encodeURIComponent(r.name) + "," + r.lat + "," + r.lng;
+    var routeUrl = hasCoords(r) ? "https://map.kakao.com/link/to/" + encodeURIComponent(r.name) + "," + r.lat + "," + r.lng : naverUrl;
     var research = safeUrl(r.research_url);
     var html =
       '<div class="dTop" id="dTop"><div class="dMini">' + esc(r.name) + '</div><button class="iconBtn" data-act="close" aria-label="닫기">' + ic("x") + '</button></div>' +
@@ -898,18 +956,19 @@
         '<a class="act primary" href="' + esc(naverUrl) + '" target="_blank" rel="noopener noreferrer">' + ic("map") + '네이버지도</a>' +
       '</div>' +
       '<section class="dSec"><div class="dSecT">평점<small>공개 집계 기준</small></div><div class="rates">' + rateTile(r,"naver") + rateTile(r,"kakao") + '</div></section>' +
-      '<section class="dSec"><div class="dSecT">이 방송에 나왔어요<small>' + r.sources.length + '개 채널 인증</small></div><div class="srcList">' + sourceRows(r) + '</div></section>' +
+      '<section class="dSec"><div class="dSecT">' + (isCafe(r) ? '이렇게 찾았어요' : '이 방송에 나왔어요') + '<small>' + r.sources.length + (isCafe(r) ? '개 선정 근거' : '개 채널 인증') + '</small></div><div class="srcList">' + sourceRows(r) + '</div></section>' +
       '<section class="dSec"><div class="dSecT">대표 메뉴</div>' +
         (menus.length ? '<div class="menus">' + menus.map(function(m){ return '<span class="menuChip">' + esc(m) + '</span>'; }).join("") + '</div>' : '<div class="note" style="margin-top:0">등록된 메뉴 정보가 없어요. 네이버지도에서 확인해 주세요.</div>') +
-        (menus.length ? '<div class="note">방송·리뷰에 언급된 메뉴예요. 가격과 현재 판매 여부는 매장에서 확인해 주세요.</div>' : '') + '</section>' +
+        (menus.length ? '<div class="note">' + (isCafe(r) ? '매장·추천 자료에 소개된 메뉴예요.' : '방송·리뷰에 언급된 메뉴예요.') + ' 가격과 현재 판매 여부는 매장에서 확인해 주세요.</div>' : '') + '</section>' +
       '<section class="dSec"><div class="dSecT">위치</div><div class="addr">' + ic("pin") + '<div class="addrText">' + esc(r.address || "") +
+        (isCafe(r) && !hasCoords(r) ? '<small>소개 자료 기준 · 현재 주소는 네이버지도에서 확인해 주세요</small>' : '') +
         (r.address_jibun ? '<small>지번 ' + esc(r.address_jibun) + '</small>' : '') + '</div></div>' +
         '<div class="addrBtns"><button class="pill" data-act="copy">' + ic("copy") + '주소 복사</button><button class="pill" data-act="showmap">' + ic("map") + '지도에서 보기</button>' +
         (safeUrl(r.kakao_url) ? '<a class="pill" href="' + esc(safeUrl(r.kakao_url)) + '" target="_blank" rel="noopener noreferrer">카카오맵' + ic("ext") + '</a>' : '') + '</div></section>' +
       '<section class="dSec"><details class="facts"><summary>자료 기준 및 출처' + ic("chev") + '</summary><ul>' +
-        '<li>방송·유튜브 소개 지점을 이름·주소·좌표로 대조했어요.</li>' +
-        '<li>네이버 또는 카카오 중 하나라도 평점 4.0 이상인 곳만 등록해요.</li>' +
-        '<li>평점은 공개 집계 자료 값이며 실시간 값이 아닐 수 있어요.</li>' +
+        (isCafe(r) ? '<li>네이버 새로오픈·블루리본 공식 소개·관광기관 빵지순례 추천 중 하나 이상을 확인한 매장이에요.</li><li>새로오픈은 배지 노출 확인일 기준이며 실제 개업일과 다를 수 있어요.</li><li>블루리본 공식 소개는 리본 개수·해당 연도 수상을 뜻하지 않아요.</li><li>평점이 확인되지 않은 곳도 출처를 기준으로 등록해요.</li>' : '<li>방송·유튜브 소개 지점을 이름·주소·좌표로 대조했어요.</li><li>네이버 또는 카카오 중 하나라도 평점 4.0 이상인 곳만 등록해요.</li>') +
+        '<li>평점과 메뉴는 자료 확인 시점 기준이며 실시간 값이 아닐 수 있어요.</li>' +
+        (isCafe(r) && !hasCoords(r) ? '<li>좌표 확인이 남아 앱 지도에는 표시되지 않아요. 네이버지도에서 위치를 확인해 주세요.</li>' : '') +
         '<li>자료 수집일 ' + esc(r.last_checked || "미상") + (r.source_updated_at ? ' · 자료 기준일 ' + esc(r.source_updated_at) : '') + '</li>' +
         (research ? '<li><a href="' + esc(research) + '" target="_blank" rel="noopener noreferrer">평점 근거 자료 보기</a></li>' : '') +
       '</ul></details></section>';
@@ -925,6 +984,7 @@
     if(act === "share") share(r);
     if(act === "copy") copyText(r.address || "", "주소를 복사했어요");
     if(act === "showmap"){
+      if(!hasCoords(r)){ toast("정확한 위치는 네이버지도에서 확인해 주세요"); return; }
       closeDetail();
       setView("map");
       setTimeout(function(){ select(r.id, {pan:true, zoom:16}); }, 30);
@@ -942,7 +1002,7 @@
   }
   function share(r){
     var url = location.origin + location.pathname + "?id=" + r.id;
-    var data = {title:r.name + " · 인증맛집", text:r.name + " (" + area(r) + ") — " + r.sources.join(", ") + " 인증", url:url};
+    var data = {title:r.name + " · 인증맛집", text:r.name + " (" + area(r) + ") — " + r.sources.join(", ") + (isCafe(r) ? "에서 소개" : " 인증"), url:url};
     if(navigator.share) navigator.share(data).catch(function(){});
     else copyText(url, "링크를 복사했어요");
   }
@@ -1028,9 +1088,14 @@
   function renderFilter(){
     var base = R.filter(function(r){ return matches(r, emptyFilter()); });
     function count(fn){ return base.filter(fn).length; }
-    $("fSources").innerHTML = SOURCES.map(function(s){
+    $("fSourcesTitle").textContent = kind === "cafe_bakery" ? "선정 기준" : "인증 콘텐츠";
+    $("fSourcesSub").textContent = kind === "cafe_bakery" ? "여러 기준을 고르면 하나라도 해당하는 곳을 보여줘요" : "하나라도 해당하면 보여줘요";
+    $("fRatingSub").textContent = kind === "cafe_bakery" ? "전체에는 평점 미확인 매장도 포함돼요" : "네이버·카카오 중 높은 점수 기준";
+    $("fMulti").querySelector("b").textContent = kind === "cafe_bakery" ? "복수 출처 매장만" : "복수 인증 맛집만";
+    $("fMulti").querySelector("span").textContent = kind === "cafe_bakery" ? "2개 이상의 선정 기준에 해당하는 곳" : "2개 이상의 방송·채널이 소개한 곳";
+    $("fSources").innerHTML = (kind === "cafe_bakery" ? CAFE_SOURCES : SOURCES).map(function(s){
       var n = count(function(r){ return r.sources.indexOf(s) >= 0; });
-      return '<button class="opt' + (draft.sources.indexOf(s) >= 0 ? " on" : "") + '" data-source="' + esc(s) + '"' + (n ? '' : ' disabled title="아직 등록된 맛집이 없어요"') + ' style="--c:' + SOURCE_COLOR[s] + '"><span class="dot"></span>' + esc(s) + ' <span class="n">' + n + '</span></button>';
+      return '<button class="opt' + (draft.sources.indexOf(s) >= 0 ? " on" : "") + '" data-source="' + esc(s) + '"' + (n ? '' : ' disabled title="아직 등록된 맛집이 없어요"') + ' style="--c:' + SOURCE_COLOR[s] + '"><span class="dot"></span>' + esc(sourceLabel(s)) + ' <span class="n">' + n + '</span></button>';
     }).join("");
     $("fRegions").innerHTML = REGIONS.map(function(g){
       var n = count(function(r){ return r.region === g; });
@@ -1042,7 +1107,7 @@
     $("fMulti").querySelector(".switch").classList.toggle("on", draft.multi);
     $("fMulti").setAttribute("aria-checked", draft.multi);
     var n = R.filter(function(r){ return matches(r, draft); }).length;
-    $("fApply").textContent = n ? n + "곳 보기" : "조건에 맞는 맛집이 없어요";
+    $("fApply").textContent = n ? n + "곳 보기" : "조건에 맞는 가게가 없어요";
     $("fApply").disabled = !n;
   }
   $("filter").addEventListener("click", function(e){
@@ -1071,22 +1136,25 @@
           recent.map(function(w){ return '<span class="sgChip"><button data-q="' + esc(w) + '">' + esc(w) + '</button><button class="x" data-del="' + esc(w) + '" aria-label="' + esc(w) + ' 삭제">' + ic("x") + '</button></span>'; }).join("") + '</div>';
       }
       html += '<div class="sgHead">인기 지역</div><div class="sgChips">' + POPULAR_AREAS.map(function(w){ return '<button class="sgChip" data-q="' + esc(w) + '">' + esc(w) + '</button>'; }).join("") + '</div>';
-      html += '<div class="sgHead">이런 메뉴는 어때요?</div><div class="sgChips">' + ["칼국수","냉면","곰탕","순대국","돼지갈비","짜장면","만두"].map(function(w){ return '<button class="sgChip" data-q="' + w + '">' + w + '</button>'; }).join("") + '</div>';
+      html += '<div class="sgHead">이런 메뉴는 어때요?</div><div class="sgChips">' + (kind === "cafe_bakery" ? ["소금빵","식빵","크루아상","새로오픈","블루리본","빵지순례"] : ["칼국수","냉면","곰탕","순대국","돼지갈비","짜장면","만두"]).map(function(w){ return '<button class="sgChip" data-q="' + w + '">' + w + '</button>'; }).join("") + '</div>';
     }else{
-      var places = R.filter(function(r){ return String(r.name).toLowerCase().indexOf(t) >= 0; }).sort(function(a,b){ return score(b) - score(a); }).slice(0, 5);
+      var places = scoped().filter(function(r){ return normText(r.name).indexOf(normText(t)) >= 0; }).sort(function(a,b){ return score(b) - score(a); }).slice(0, 5);
       var areaSet = {};
-      R.forEach(function(r){
+      scoped().forEach(function(r){
         var a = (REGION_SHORT[r.region] || "") + " " + r.district;
         if((r.district || "").toLowerCase().indexOf(t) >= 0 || a.toLowerCase().indexOf(t) >= 0) areaSet[a] = (areaSet[a] || 0) + 1;
       });
       var areas = Object.keys(areaSet).sort(function(a,b){ return areaSet[b] - areaSet[a]; }).slice(0, 3);
       var menuSet = {};
-      R.forEach(function(r){ (r.menu || []).forEach(function(m){ if(String(m[0]).toLowerCase().indexOf(t) >= 0) menuSet[m[0]] = (menuSet[m[0]] || 0) + 1; }); });
+      scoped().forEach(function(r){ (r.menu || []).forEach(function(m){ if(String(m[0]).toLowerCase().indexOf(t) >= 0) menuSet[m[0]] = (menuSet[m[0]] || 0) + 1; }); });
       var menus = Object.keys(menuSet).sort(function(a,b){ return menuSet[b] - menuSet[a]; }).slice(0, 3);
-      var all = R.filter(function(r){ return matchText(r, t); }).length;
+      var all = scoped().filter(function(r){ return matchText(r, t); }).length;
+      (kind === "cafe_bakery" ? CAFE_SOURCES : SOURCES).filter(function(s){ return normText(s).indexOf(normText(t)) >= 0; }).forEach(function(s){
+        html += '<button class="sgItem" data-q="' + esc(s) + '"><span class="sgIcon">' + esc(SOURCE_SHORT[s]) + '</span><span><b>' + hl(s,t) + '</b><small>출처별 검색</small></span></button>';
+      });
       html += '<button class="sgItem" data-commit="1"><span class="sgIcon">' + ic("search") + '</span><span><b>‘' + esc($("q").value.trim()) + '’ 검색</b><small>' + (all ? all + "곳의 맛집" : "일치하는 맛집이 없어요") + '</small></span></button>';
       places.forEach(function(r){
-        html += '<button class="sgItem" data-place="' + r.id + '"><span class="sgIcon">' + emoji(r) + '</span><span><b>' + hl(r.name, t) + '</b><small>' + esc(area(r)) + ' · ' + esc(subCat(r)) + ' · ★ ' + best(r).toFixed(1) + '</small></span></button>';
+        html += '<button class="sgItem" data-place="' + r.id + '"><span class="sgIcon">' + emoji(r) + '</span><span><b>' + hl(r.name, t) + '</b><small>' + esc(area(r)) + ' · ' + esc(subCat(r)) + (best(r) ? ' · ★ ' + best(r).toFixed(1) : ' · 평점 미확인') + '</small></span></button>';
       });
       areas.forEach(function(a){
         html += '<button class="sgItem" data-q="' + esc(a.split(" ").pop()) + '"><span class="sgIcon">' + ic("pin") + '</span><span><b>' + hl(a, t) + '</b><small>지역 · ' + areaSet[a] + '곳</small></span></button>';
@@ -1165,6 +1233,7 @@
   isDesktop.addEventListener && isDesktop.addEventListener("change", function(){ setView(view); });
   $("listFab").onclick = function(){ boundsOnly = true; renderAll(); setView("list"); $("listPane").scrollTop = 0; };
   $("errToList").onclick = function(){ setView("list"); };
+  $("mapNote").onclick = function(){ boundsOnly = false; renderAll(); setView("list"); };
 
   function resetAll(){
     applied = emptyFilter(); cat = "all"; boundsOnly = false;
@@ -1173,6 +1242,14 @@
   }
 
   function renderAll(opt){
+    Array.prototype.forEach.call($("kindBar").children, function(b){ b.classList.toggle("on",b.dataset.kind === kind); b.setAttribute("aria-pressed",b.dataset.kind === kind); });
+    $("foodN").textContent = R.filter(function(r){return !isCafe(r);}).length;
+    $("cafeN").textContent = R.filter(isCafe).length;
+    $("brandSub").innerHTML = '수도권 <b>' + scoped().length + '</b>곳' + (kind === "food" ? ' · 평점 4.0+' : ' · 카페·빵집');
+    $("q").placeholder = kind === "cafe_bakery" ? "가게, 빵, 지역, 출처 검색" : "가게, 메뉴, 지역 검색";
+    $("listFoot").textContent = kind === "cafe_bakery" ? "새로오픈은 확인일 기준 목록이에요. 블루리본 공식 소개와 관광기관의 빵지순례 추천을 함께 담았어요. 상세에서 근거 링크를 확인할 수 있어요." : "방송·유튜브에 소개된 실제 지점 중 네이버 또는 카카오 평점이 4.0 이상인 곳만 담았어요. 평점은 공개 집계 자료 기준이며 실시간 값이 아닐 수 있어요.";
+    Array.prototype.forEach.call(document.querySelectorAll('.paneTabs [data-view="list"]'),function(b){ b.textContent = kind === "cafe_bakery" ? "전체 카페·빵집" : "전체 맛집"; });
+    Array.prototype.forEach.call(document.querySelectorAll('.paneTabs [data-view="saved"]'),function(b){ b.childNodes[0].textContent = kind === "cafe_bakery" ? "저장한 카페·빵집 " : "저장한 맛집 "; });
     renderCatBar();
     renderList();
     renderSaved();
@@ -1191,7 +1268,8 @@
 
   Promise.all([
     fetch("./data.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("data"); return r.json(); }),
-    fetch("./candidates_priority.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; })
+    fetch("./candidates_priority.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : []; }).catch(function(){ return []; }),
+    fetch("./cafe_bakery.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("cafes"); return r.json(); }).catch(function(){ cafeLoadError = true; return []; })
   ]).then(function(values){
     R = values[0].filter(function(r){
       var ratingOk = isNum(r.naver) && r.naver >= 4 || isNum(r.kakao) && r.kakao >= 4;
@@ -1201,6 +1279,11 @@
       });
       return ratingOk && regionOk && sourceOk && isNum(r.lat) && isNum(r.lng);
     });
+    R = R.concat((Array.isArray(values[2]) ? values[2] : []).filter(function(r){
+      return r.kind === "cafe_bakery" && Number.isSafeInteger(r.id) && r.id >= 100001 && REGIONS.indexOf(r.region) >= 0 && Array.isArray(r.sources) && r.sources.length && Array.isArray(r.discovery_tags) && r.sources.every(function(s){
+        return CAFE_SOURCES.indexOf(s) >= 0 && r.discovery_tags.indexOf(DISCOVERY[s]) >= 0 && (r.source_evidence || []).some(function(e){ return e.source === s && safeUrl(e.url); });
+      });
+    }));
     R.forEach(function(r){ BY_ID[r.id] = r; });
     saved = saved.filter(function(id){ return BY_ID[id]; });
     CANDIDATES = Array.isArray(values[1]) ? values[1] : [];
@@ -1211,6 +1294,7 @@
     var qid = Number(new URLSearchParams(location.search).get("id"));
     history.replaceState(null, "", location.pathname);
     if(BY_ID[qid]){
+      setKind(isCafe(BY_ID[qid]) ? "cafe_bakery" : "food");
       select(qid, {pan:true, zoom:15});
       openDetail(qid);
     }

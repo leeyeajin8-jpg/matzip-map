@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-10-03",
+  "timezone": "Asia/Seoul",
+  "scope": [
+    "서울특별시",
+    "경기도",
+    "인천광역시"
+  ],
+  "count": 76,
+  "by_region": {
+    "서울특별시": 26,
+    "경기도": 27,
+    "인천광역시": 23
+  },
+  "by_source": {
+    "네이버 새로오픈": 48,
+    "블루리본": 24,
+    "빵지순례": 5
+  },
+  "source_counts_can_overlap": true,
+  "coordinates_verified": 73,
+  "coordinates_pending": [
+    {
+      "id": 100014,
+      "name": "오늘은소금빵"
+    },
+    {
+      "id": 100021,
+      "name": "숨포레"
+    },
+    {
+      "id": 100058,
+      "name": "몽스베이커리"
+    }
+  ],
+  "new_opening_currently_confirmed": 45,
+  "new_opening_initial_list_checked_at": "2026-10-02",
+  "criteria": {
+    "matching": "at least one of the three source groups",
+    "naver_new": "네이버 통합검색 새로 오픈했어요 노출 확인; 실제 개업일 또는 스마트플레이스 등록일로 해석하지 않음",
+    "blue": "블루리본 공식 매장 소개 페이지의 검색 색인에서 지점명·주소 확인. 리본 수·등재 연도 미확인 값은 null. 브랜드의 다른 지점에 복사하지 않음",
+    "pilgrimage": "서울관광재단 및 인천관광공사 공식 대표 빵집·빵지순례 소개 지점",
+    "rating": "평점 미표시는 null; 카페·빵집은 출처 기준으로 등록하며 기존 맛집 4.0 기준과 별도로 조회",
+    "coordinates": "네이버 공개 검색의 동일 Place ID 또는 동일 상호·정확한 도로명 번지 대조. 좌표 미확인 3곳은 목록·외부 네이버지도 링크로 제공"
+  },
+  "limitations": [
+    "지역 전체 전수 목록이 아닌 확인된 매장 목록",
+    "블루리본 공식 웹의 일부 본문 직접 접근 불가로 공식 페이지 검색 색인만 확인한 매장이 있음",
+    "새로오픈 배지는 조회 위치·시점에 따라 변할 수 있음",
+    "영업시간·메뉴 가격은 수집하지 않았으며 실제 방문 전 매장 확인 필요"
+  ],
+  "sha256": "5c42a708779e28d745ffed99b136d76a3ded0bc01dbb7ae032e1fdecdc4a0b43"
+}
