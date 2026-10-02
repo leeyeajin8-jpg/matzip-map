@@ -141,12 +141,12 @@
   <header class="top">
     <div class="brandRow">
       <div class="brand">인증맛집</div>
-      <div class="brandSub">검증된 곳만 지도에서</div>
+      <div class="brandSub">네이버 또는 카카오 4.0+</div>
     </div>
     <div class="searchRow">
       <div class="searchBox">
         <span class="searchIcon">⌕</span>
-        <input id="q" class="search" placeholder="맛집이나 대표 메뉴 검색">
+        <input id="q" class="search" placeholder="맛집이나 음식 종류 검색">
       </div>
       <button id="filterBtn" class="filterBtn">필터 <span id="filterBadge" class="badge">0</span></button>
     </div>
@@ -259,6 +259,8 @@
     var sourceOk = (state.sources || []).every(function(s){ return (r.sources || []).indexOf(s) >= 0; });
     var textOk = !term ||
       String(r.name || "").toLowerCase().indexOf(term) >= 0 ||
+      String(r.raw_category || "").toLowerCase().indexOf(term) >= 0 ||
+      (r.cats || []).some(function(c){ return c.toLowerCase().indexOf(term) >= 0; }) ||
       (r.menu || []).some(function(m){ return String(m[0] || "").toLowerCase().indexOf(term) >= 0; });
     var boundsOk = true;
     if(includeBounds && boundsOnly && map && window.naver && naver.maps){
@@ -317,6 +319,29 @@
     drawMarkers();
   }
 
+  function ratingText(value){
+    return typeof value === 'number' && Number.isFinite(value) ? '⭐ ' + value.toFixed(1) : '미확인';
+  }
+
+  function safeUrl(value){
+    try{ var url = new URL(value); return url.protocol === 'https:' ? url.href : ''; }catch(e){ return ''; }
+  }
+
+  function researchLinks(r){
+    var links = [];
+    var research = safeUrl(r.research_url);
+    if(research) links.push('<a href="' + esc(research) + '" target="_blank" rel="noopener noreferrer">평점·소개 근거</a>');
+    var seen = [];
+    (r.source_videos || []).forEach(function(v){
+      var url = safeUrl(v.url);
+      if(url && seen.indexOf(v.channel) < 0 && seen.length < 3){
+        seen.push(v.channel);
+        links.push('<a href="' + esc(url) + '" target="_blank" rel="noopener noreferrer">' + esc(v.channel) + ' 영상</a>');
+      }
+    });
+    return links.length ? '<div class="detailMeta" style="display:flex;gap:10px;flex-wrap:wrap;margin:12px 0">' + links.join('') + '</div>' : '';
+  }
+
   function renderDetail(r){
     var tags = (r.sources || []).map(function(s){
       return '<span class="tag">' + esc(s) + '</span>';
@@ -325,7 +350,7 @@
       '<button id="detailClose" class="detailClose" aria-label="닫기">×</button>' +
       '<div class="detailTitle">' + esc(r.name) + '</div>' +
       '<div class="detailMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + '</div>' +
-      '<div class="ratings"><span class="rating">네이버 ⭐ ' + esc(r.naver) + '</span><span class="rating">카카오 ⭐ ' + esc(r.kakao) + '</span></div>' +
+      '<div class="ratings"><span class="rating">네이버 ' + ratingText(r.naver) + '</span><span class="rating">카카오 ' + ratingText(r.kakao) + '</span></div>' +
       '<div class="tags detailTags">' + tags + '</div>';
 
     var menus = (r.menu || []).map(function(m){
@@ -334,13 +359,16 @@
 
     document.getElementById("detailBody").innerHTML =
       '<p class="desc">' + esc(r.desc || "") + '</p>' +
-      '<div class="menu">' + menus + '</div>' +
-      '<div class="verify">' + esc(r.status || "검증 정보 확인 중") + ' · 평점과 인증 출처는 본 데이터 수집 단계에서 개별 검증 후 확정합니다.</div>' +
+      '<div class="detailMeta">' + esc(r.address || '') + '</div>' +
+      '<div class="menu">' + (menus || '<div class="row">메뉴·가격은 네이버지도에서 확인해 주세요.</div>') + '</div>' +
+      (r.menu_status ? '<div class="detailMeta">' + esc(r.menu_status) + '</div>' : '') +
+      '<div class="verify">네이버 또는 카카오 중 하나라도 4.0 이상 · ' + esc(r.status || '검증 정보 확인 중') + '<br>자료 기준 ' + esc(r.source_updated_at || '미상') + ' · 수집 ' + esc(r.last_checked || '미상') + '</div>' +
+      researchLinks(r) +
       '<button id="naverOpen" class="naver">네이버지도에서 보기</button>';
 
     document.getElementById("detailClose").onclick = closeDetail;
     document.getElementById("naverOpen").onclick = function(){
-      window.open("https://map.naver.com/p/search/" + encodeURIComponent(r.name), "_blank");
+      window.open(safeUrl(r.naver_url) || "https://map.naver.com/p/search/" + encodeURIComponent(r.name + ' ' + r.district), "_blank", "noopener,noreferrer");
     };
 
     var sheet = document.getElementById("detailSheet");
@@ -370,7 +398,7 @@
         '<div class="cardMeta">' + esc(x.district) + ' · ' + esc((x.cats || []).join(" · ")) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
         '<div style="margin-top:9px"><small>' + esc((x.menus || []).join(" · ")) + '</small></div>' +
-        '<div class="candidateNote">' + esc(x.note) + ' · 네이버/카카오 4.0+ 개별 검증 전 후보</div></div>';
+        '<div class="candidateNote">' + esc(x.note) + ' · 네이버 또는 카카오 4.0 이상 확인 전 후보</div></div>';
     }).join("");
   }
 
@@ -380,7 +408,7 @@
     document.getElementById("cards").innerHTML = rows.map(function(r){
       var tags = (r.sources || []).map(function(s){ return '<span class="tag">' + esc(s) + '</span>'; }).join("");
       return '<div class="card" data-id="' + esc(r.id) + '"><h3>' + esc(r.name) + '</h3>' +
-        '<div class="cardMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + esc(r.naver) + ' / 카카오 ' + esc(r.kakao) + '</div>' +
+        '<div class="cardMeta">' + esc(r.district) + ' · ' + esc((r.cats || []).join(" · ")) + ' · 네이버 ' + ratingText(r.naver) + ' / 카카오 ' + ratingText(r.kakao) + '</div>' +
         '<div class="tags">' + tags + '</div>' +
         '<div style="margin-top:9px"><small>' + esc((r.menu || []).map(function(m){ return m[0]; }).join(" · ")) + '</small></div></div>';
     }).join("");
@@ -564,8 +592,9 @@
     fetch("./data.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("data"); return r.json(); }),
     fetch("./candidates_priority.json",{cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("candidate"); return r.json(); })
   ]).then(function(values){
-    R = values[0];
+    R = values[0].filter(function(r){ return typeof r.naver === 'number' && r.naver >= 4 || typeof r.kakao === 'number' && r.kakao >= 4; });
     CANDIDATES = values[1];
+    SOURCES = Array.from(new Set(R.reduce(function(all,r){ return all.concat(r.sources || []); },[]))).sort();
     renderAll();
     locateMe();
   }).catch(function(){

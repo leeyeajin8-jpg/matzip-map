@@ -1,0 +1,30 @@
+{
+  "collected_at": "2026-10-02",
+  "target_count": 300,
+  "saved_count": 300,
+  "rating_rule": "naver >= 4.0 OR kakao >= 4.0",
+  "scope": "서울특별시",
+  "priority": [
+    "동작구",
+    "영등포구",
+    "관악구",
+    "용산구",
+    "인접 지역",
+    "서울 나머지"
+  ],
+  "candidate_count": 806,
+  "qualified_collected_count": 333,
+  "district_counts": {
+    "동작구": 56,
+    "영등포구": 103,
+    "관악구": 43,
+    "용산구": 98
+  },
+  "rating_verification": "secondary_source",
+  "rating_note": "유추카 공개 자료에 표시된 네이버/카카오 평점을 전사. 플랫폼 원문 직접 검증 및 실시간 평점 아님. 미확인 플랫폼은 null. 제3자 자체 평점으로 대체하지 않음.",
+  "source": "https://youchuca.popit.kr/",
+  "menu_mentions_count": 256,
+  "menu_note": "공개 소개 자료의 리뷰에 실제 언급된 메뉴명을 최대 3개 기록. 현재 메뉴·가격 직접 검증 아님. 가격은 가격 확인으로 표시.",
+  "remaining_candidate_count": 22,
+  "data_sha256": "c4646f4d03c7f4ebe9a079994879572d44dd4a337a66bc61c453d4418f3a3cf5"
+}
